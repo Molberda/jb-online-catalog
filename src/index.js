@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import {  } from '@fortawesome/free-solid-svg-icons'
+
+library.add(  )
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
