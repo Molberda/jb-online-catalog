@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faJarWheat } from '@fortawesome/free-solid-svg-icons'
+import { faJarWheat, faLeaf, faCookieBite } from '@fortawesome/free-solid-svg-icons'
 
-library.add( faJarWheat )
+library.add( faJarWheat, faLeaf, faCookieBite )
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

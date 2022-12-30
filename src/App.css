@@ -3,6 +3,7 @@
   margin: 0;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 html {
@@ -26,26 +27,38 @@ NAV
 
 .nav {
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   position: absolute;
   top: 0;
   left: 0;
   height: 100vh;
   width: fit-content;
-  padding: 2em 0.5em;
+  padding: 10em 0.5em;
   font-size: 26px;
 }
 
 .nav__logo--wrapper {
   display: flex;
   overflow: hidden;
+  aspect-ratio: 1 / 1;
+  width: 2.25em;
 }
 
 .nav__logo {
   scale: 1;
 }
 
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
 .nav__link--item {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15em;
   color: #8f7d5e;
+  padding: .2em ;
 }
