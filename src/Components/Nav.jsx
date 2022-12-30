@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import Logo from "../Assets/logo.png"
+import Logo from "../Assets/logo.png";
 
 const Nav = () => {
   return (
@@ -10,13 +10,19 @@ const Nav = () => {
       </figure>
       <ul>
         <li className="nav__link--item">
-          <FontAwesomeIcon icon="fa-solid fa-jar-wheat" />
+          <a href="" className="nav__link">
+            <FontAwesomeIcon icon="fa-solid fa-jar-wheat" />
+          </a>
         </li>
         <li className="nav__link--item">
-          <FontAwesomeIcon icon="fa-solid fa-leaf" />
+          <a href="" className="nav__link">
+            <FontAwesomeIcon icon="fa-solid fa-leaf" />
+          </a>
         </li>
         <li className="nav__link--item">
-          <FontAwesomeIcon icon="fa-solid fa-cookie-bite" />
+          <a href="" className="nav__link">
+            <FontAwesomeIcon icon="fa-solid fa-cookie-bite" />
+          </a>
         </li>
       </ul>
     </nav>
