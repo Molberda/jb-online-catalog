@@ -12,16 +12,19 @@ const Nav = () => {
         <li className="nav__link--item">
           <a href="#home" className="nav__link">
             <FontAwesomeIcon icon="fa-solid fa-jar-wheat" />
+            <span className="nav__name">Ceviche</span>
           </a>
         </li>
         <li className="nav__link--item">
           <a href="#home" className="nav__link">
             <FontAwesomeIcon icon="fa-solid fa-leaf" />
+            <span className="nav__name">Antipasto</span>
           </a>
         </li>
         <li className="nav__link--item">
           <a href="#home" className="nav__link">
             <FontAwesomeIcon icon="fa-solid fa-cookie-bite" />
+            <span className="nav__name">Postre</span>
           </a>
         </li>
       </ul>
