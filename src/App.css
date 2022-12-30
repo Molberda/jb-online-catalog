@@ -59,6 +59,9 @@ ul{
   align-items: center;
   justify-content: center;
   font-size: 1.15em;
-  color: #8f7d5e;
   padding: .2em ;
+}
+
+.nav__link{
+  color: #8f7d5e;
 }

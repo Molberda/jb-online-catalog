@@ -10,17 +10,17 @@ const Nav = () => {
       </figure>
       <ul>
         <li className="nav__link--item">
-          <a href="" className="nav__link">
+          <a href="#home" className="nav__link">
             <FontAwesomeIcon icon="fa-solid fa-jar-wheat" />
           </a>
         </li>
         <li className="nav__link--item">
-          <a href="" className="nav__link">
+          <a href="#home" className="nav__link">
             <FontAwesomeIcon icon="fa-solid fa-leaf" />
           </a>
         </li>
         <li className="nav__link--item">
-          <a href="" className="nav__link">
+          <a href="#home" className="nav__link">
             <FontAwesomeIcon icon="fa-solid fa-cookie-bite" />
           </a>
         </li>
