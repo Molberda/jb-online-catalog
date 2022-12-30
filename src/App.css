@@ -4,3 +4,17 @@
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
 }
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: min-content;
+  padding: 2em .5em;
+}
