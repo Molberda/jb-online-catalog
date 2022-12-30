@@ -48,7 +48,7 @@ NAV
   scale: 1;
 }
 
-ul{
+ul {
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -59,9 +59,14 @@ ul{
   align-items: center;
   justify-content: center;
   font-size: 1.15em;
-  padding: .2em ;
+  padding: 0.2em;
+}
+.nav__link:hover {
+  font-size: 1.3em;
 }
 
-.nav__link{
+.nav__link {
+  display: flex;
   color: #8f7d5e;
+  transition: all 300ms ease;
 }
