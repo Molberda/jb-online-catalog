@@ -61,8 +61,8 @@ ul {
   font-size: 1.15em;
   padding: 0.2em;
 }
-.nav__link:hover {
-  font-size: 1.3em;
+.nav__link--item:hover .nav__link {
+ scale: 1.15;
 }
 
 .nav__link {
@@ -72,7 +72,14 @@ ul {
   transition: all 300ms ease;
 }
 
-.nav__name{
+.nav__name {
+  opacity: 0;
   margin-top: 0.3em;
-  font-size: .5em;
+  font-size: .4em;
+  transition: all 700ms;
+  font-weight: 600;
+}
+
+.nav__link--item:hover .nav__name {
+  opacity: 1;
 }
