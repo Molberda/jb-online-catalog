@@ -11,6 +11,7 @@ const Landing = () => {
           </figure>
           <div className="landing__textbox">
             <h1 className="landing__title">DELIZZIOZO</h1>
+            <h2 className="landing__subtitle">Todos tus antojitos en un solo lugar</h2>
           </div>
         </div>
       </div>
