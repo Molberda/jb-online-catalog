@@ -134,14 +134,15 @@ Landing
 
 .landing__subtitle{
   font-family: 'Dancing Script', cursive;
-  margin-top: 1em;
+  margin-top: 1.5em;
   text-align: center;
   letter-spacing: 0.3em;
   font-weight: 700;
 }
 
+
 .fa-angles-down{
-  margin-top: 2em;
+  margin-top: 1em;
   color: #8f7d5e;
   opacity: .4;
   font-size: 3.5em;
