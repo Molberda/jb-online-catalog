@@ -37,6 +37,31 @@ h1, h2, h3, p, span{
   color: #8f7d5e;
 }
 
+.title{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5em;
+  letter-spacing: 1em;
+  margin-left: 1em ;
+}
+
+.subtitle{
+  font-family: 'Dancing Script', cursive;
+  margin-top: 1.5em;
+  text-align: center;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+}
+
+.text{
+  text-align: center;
+  margin-top: 1em;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+}
+
 /* 
 
 NAV
@@ -123,30 +148,6 @@ Landing
   flex-direction: column;
 }
 
-.landing__title{
-  font-family: 'Lobster', cursive;
-  text-align: center;
-  font-weight: 700;
-  font-size: 2.5em;
-  letter-spacing: 1em;
-  margin-left: 1em ;
-}
-
-.landing__subtitle{
-  font-family: 'Dancing Script', cursive;
-  margin-top: 1.5em;
-  text-align: center;
-  letter-spacing: 0.3em;
-  font-weight: 700;
-}
-
-.landing__text{
-  text-align: center;
-  margin-top: 1em;
-  font-family: 'Dancing Script', cursive;
-  font-weight: 400;
-  letter-spacing: 0.2em;
-}
 
 .fa-angles-down{
   margin-top: 1em;
