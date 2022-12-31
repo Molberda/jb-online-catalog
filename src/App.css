@@ -83,3 +83,14 @@ ul {
 .nav__link--item:hover .nav__name {
   opacity: 1;
 }
+
+/* 
+
+Landing 
+
+*/
+
+#landing{
+  height: 100vh;
+  width: 100vw;
+}
