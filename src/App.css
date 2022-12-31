@@ -140,6 +140,13 @@ Landing
   font-weight: 700;
 }
 
+.landing__text{
+  text-align: center;
+  margin-top: 1em;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+}
 
 .fa-angles-down{
   margin-top: 1em;
