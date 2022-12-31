@@ -138,5 +138,9 @@ Landing
   text-align: center;
   letter-spacing: 0.3em;
   font-weight: 700;
+}
 
+.fa-angles-down{
+  color: #8f7d5e;
+  font-size: 3.5em;
 }
