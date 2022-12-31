@@ -141,9 +141,11 @@ Landing
 }
 
 .fa-angles-down{
-  margin-top: 3em;
+  margin-top: 2em;
   color: #8f7d5e;
+  opacity: .4;
   font-size: 3.5em;
+  animation: slideDown 2s infinite alternate-reverse;
 }
 
 @keyframes slideDown {
