@@ -164,3 +164,14 @@ Landing
     transform: translateY(1em);
   }  
 }
+
+/* 
+
+CEVICHE
+
+*/
+
+#ceviche{
+  height: 80vh;
+  width: 100vw;
+}
