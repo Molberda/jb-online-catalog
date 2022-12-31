@@ -1,5 +1,5 @@
 import React from 'react';
-import fullLogo from '../Assets/logo-full.png'
+import Logo from '../Assets/logo.png'
 
 const Landing = () => {
     return (
@@ -7,8 +7,9 @@ const Landing = () => {
             <div className="container landing__container">
                 <div className="row landing__row column">
                     <figure className="landing__img--wrapper">
-                        <img src={fullLogo} alt="" className="landing__img" />
+                        <img src={Logo} alt="" className="landing__img" />
                     </figure>
+                    <h1 className="landing__title">DELIZZIOZO</h1>
                 </div>
             </div>
         </section>
