@@ -24,7 +24,7 @@ const Nav = () => {
         <li className="nav__link--item">
           <a href="#home" className="nav__link">
             <FontAwesomeIcon icon="fa-solid fa-cookie-bite" />
-            <span className="nav__name">Postre</span>
+            <span className="nav__name">Postres</span>
           </a>
         </li>
       </ul>
