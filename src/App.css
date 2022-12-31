@@ -15,14 +15,16 @@ img {
 }
 
 .row{
-  margin-left: 3em;
+  max-width: 80vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .container{
+  margin: 0 auto;
   padding-top: 6em ;
+  max-width: 80vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,6 +53,7 @@ h1, h2, h3, p, span{
   margin-top: 1.5em;
   text-align: center;
   letter-spacing: 0.3em;
+  margin-left: 0.3em;
   font-weight: 700;
 }
 
@@ -60,6 +63,7 @@ h1, h2, h3, p, span{
   font-family: 'Dancing Script', cursive;
   font-weight: 400;
   letter-spacing: 0.2em;
+  margin-left: 0.2em;
 }
 
 /* 
@@ -136,7 +140,6 @@ Landing
 
 #landing{
   height: 100vh;
-  width: 100vw;
 }
 
 .landing__img--wrapper{
@@ -172,7 +175,17 @@ CEVICHE
 
 */
 
-#ceviche{
-  height: 80vh;
-  width: 100vw;
+.ceviche__img--wrapper{
+  width: 30em;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.ceviche__img{
+  scale: 1.4;
+  transform: translateY(-4em);
+}
+
+.ceviche__text{
+  line-height: 1.3em;
 }
