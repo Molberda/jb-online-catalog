@@ -10,6 +10,10 @@ html {
   background-color: #efe9e6;
 }
 
+.img__wrapper{
+  display: flex;
+}
+
 img {
   width: 100%;
 }
