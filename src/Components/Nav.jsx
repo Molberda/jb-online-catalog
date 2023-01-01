@@ -10,19 +10,19 @@ const Nav = () => {
       </figure>
       <ul>
         <li className="nav__link--item">
-          <a href="#home" className="nav__link">
+          <a href="#ceviche" className="nav__link">
             <FontAwesomeIcon icon="fa-solid fa-jar-wheat" />
             <span className="nav__name">Ceviche</span>
           </a>
         </li>
         <li className="nav__link--item">
-          <a href="#home" className="nav__link">
+          <a href="#antipasto" className="nav__link">
             <FontAwesomeIcon icon="fa-solid fa-leaf" />
             <span className="nav__name">Antipasto</span>
           </a>
         </li>
         <li className="nav__link--item">
-          <a href="#home" className="nav__link">
+          <a href="#postres" className="nav__link">
             <FontAwesomeIcon icon="fa-solid fa-cookie-bite" />
             <span className="nav__name">Postres</span>
           </a>

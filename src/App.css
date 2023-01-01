@@ -8,6 +8,7 @@
 
 html {
   background-color: #efe9e6;
+  scroll-behavior: smooth;
 }
 
 .img__wrapper{
