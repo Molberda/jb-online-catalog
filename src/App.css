@@ -191,6 +191,7 @@ CEVICHE
   width: 30em;
   overflow: hidden;
   border-radius: 50%;
+  border: 0.2em solid #8f7d5e;
 }
 
 .ceviche__img{
