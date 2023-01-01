@@ -29,6 +29,7 @@ img {
 .container{
   margin: 0 auto;
   padding-top: 6em ;
+  padding-left: 2em;
   max-width: 80vw;
   display: flex;
   align-items: center;

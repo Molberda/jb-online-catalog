@@ -9,6 +9,7 @@ const Antipasto = () => {
                         <img src="https://tomacol.co/wp-content/uploads/2022/01/Antipasto-champinones-120g.png" alt="" className="antipasto__img" />
                     </figure>
                     <h2 className="title antipasto__title">ANTIPASTO</h2>
+                    <h2 className="subtitle antipasto__subtitle">Un acompañante exquisito y unico</h2>
                 </div>
             </div>
         </section>
