@@ -12,6 +12,7 @@ html {
 
 .img__wrapper{
   display: flex;
+  overflow: hidden;
 }
 
 img {
@@ -189,7 +190,6 @@ CEVICHE
 
 .ceviche__img--wrapper{
   width: 30em;
-  overflow: hidden;
   border-radius: 50%;
   border: 0.2em solid #8f7d5e;
 }
@@ -205,4 +205,21 @@ CEVICHE
 
 .ceviche__text{
   line-height: 1.3em;
+}
+
+/* 
+
+ANTIPASTO
+
+*/
+
+.antipasto__img--wrapper{
+  width: 30em;
+  border-radius: 50%;
+  border: 0.2em solid #8f7d5e;
+}
+
+.antipasto__img{
+  scale: 1.1;
+  transform: translateY(1.3em);
 }
