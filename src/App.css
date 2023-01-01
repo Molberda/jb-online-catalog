@@ -193,6 +193,10 @@ CEVICHE
   transform: translateY(-4em);
 }
 
+.ceviche__title{
+  margin-top: 1em;
+}
+
 .ceviche__text{
   line-height: 1.3em;
 }
