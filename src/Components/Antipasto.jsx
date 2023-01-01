@@ -4,10 +4,11 @@ const Antipasto = () => {
     return (
         <section id="antipasto">
             <div className="container antipasto__container">
-                <div className="row antipasto__row">
+                <div className="row antipasto__row column">
                     <figure className="antipasto__img--wrapper img__wrapper">
                         <img src="https://tomacol.co/wp-content/uploads/2022/01/Antipasto-champinones-120g.png" alt="" className="antipasto__img" />
                     </figure>
+                    <h2 className="title antipasto__title">ANTIPASTO</h2>
                 </div>
             </div>
         </section>

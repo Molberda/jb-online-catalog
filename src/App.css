@@ -223,3 +223,7 @@ ANTIPASTO
   scale: 1.1;
   transform: translateY(1.3em);
 }
+
+.antipasto__title{
+  margin-top: 1em;
+}
