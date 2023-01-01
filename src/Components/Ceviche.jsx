@@ -11,6 +11,7 @@ const Ceviche = () => {
           <h1 className="title ceviche__title">CEVICHE</h1>
           <h2 className="subtitle ceviche__subtitle">Una entrada imperdible y para toda la familia</h2>
           <h2 className="text ceviche__text">La especialidad de la casa.<br /> Un ceviche de champiñiones bañado en salsa de tomate, limon & picante. <br /> ¡Sirvelo con tostadas o galletas! </h2>
+          <h2 className="price ceviche__price text">$22.500</h2>
         </div>
       </div>
     </section>
