@@ -5,7 +5,7 @@ import Logo from "../Assets/logo.png";
 const Nav = () => {
   return (
     <nav className="nav column">
-      <figure className="nav__logo--wrapper">
+      <figure className="nav__logo--wrapper img__wrapper">
         <img src={Logo} alt="" className="nav__logo" />
       </figure>
       <ul>

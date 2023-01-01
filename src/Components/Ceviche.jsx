@@ -5,7 +5,7 @@ const Ceviche = () => {
     <section id="ceviche">
       <div className="container ceviche__container">
         <div className="row ceviche__row column">
-          <figure className="ceviche__img--wrapper">
+          <figure className="ceviche__img--wrapper img__wrapper">
             <img src="https://lacremerie.com.co/wp-content/uploads/2021/03/Ceviche-de-mango-x120gr.jpeg" alt="" className="ceviche__img" />
           </figure>
           <h1 className="title ceviche__title">CEVICHE</h1>

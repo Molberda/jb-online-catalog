@@ -7,7 +7,7 @@ const Landing = () => {
     <section id="landing">
       <div className="container landing__container">
         <div className="row landing__row column">
-          <figure className="landing__img--wrapper">
+          <figure className="landing__img--wrapper img__wrapper">
             <img src={Logo} alt="" className="landing__img" />
           </figure>
           <div className="landing__textbox">
