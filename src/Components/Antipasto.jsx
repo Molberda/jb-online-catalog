@@ -10,6 +10,8 @@ const Antipasto = () => {
                     </figure>
                     <h2 className="title antipasto__title">ANTIPASTO</h2>
                     <h2 className="subtitle antipasto__subtitle">Un acompañante exquisito y unico</h2>
+                    <h2 className="text antipasto__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam id iure cum unde amet voluptates.</h2>
+                    <h2 className="price antipasto__price text">$20.000</h2>
                 </div>
             </div>
         </section>
