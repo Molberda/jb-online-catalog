@@ -2,6 +2,7 @@
 import "./App.css";
 import Antipasto from "./Components/Antipasto";
 import Ceviche from "./Components/Ceviche";
+import Footer from "./Components/Footer";
 import Landing from "./Components/Landing";
 import Nav from "./Components/Nav";
 import Postres from "./Components/Postres";
@@ -16,6 +17,7 @@ function App() {
           <Ceviche/>
           <Antipasto/>
           <Postres/>
+          <Footer/>
         {/* </Routes> */}
       {/* // </Router> */}
     </div>
