@@ -64,6 +64,10 @@ span {
   margin-left: 1em;
 }
 
+.ceviche__title,.antipasto__title, .postres__title{
+  margin-top: 1em;
+}
+
 .subtitle {
   font-family: "Dancing Script", cursive;
   margin-top: 1.5em;
@@ -208,10 +212,6 @@ CEVICHE
   transform: translateY(-4em);
 }
 
-.ceviche__title {
-  margin-top: 1em;
-}
-
 .ceviche__text {
   line-height: 1.3em;
 }
@@ -231,6 +231,17 @@ ANTIPASTO
   transform: translateY(1.3em);
 }
 
-.antipasto__title {
-  margin-top: 1em;
+/* 
+
+POSTRES
+
+*/
+
+.postres__img--wrapper{
+  width: 30em;
+  aspect-ratio: 1 / 1;
+}
+
+.postres__img{
+  object-fit: cover;
 }
