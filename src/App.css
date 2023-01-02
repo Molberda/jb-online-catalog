@@ -11,25 +11,30 @@ html {
   scroll-behavior: smooth;
 }
 
-.img__wrapper{
+figure {
   display: flex;
   overflow: hidden;
+}
+
+.img__wrapper {
+  border-radius: 50%;
+  border: 0.2em solid #8f7d5e;
 }
 
 img {
   width: 100%;
 }
 
-.row{
+.row {
   max-width: 80vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.container{
+.container {
   margin: 0 auto;
-  padding-top: 6em ;
+  padding-top: 6em;
   padding-left: 2em;
   max-width: 80vw;
   display: flex;
@@ -42,21 +47,25 @@ img {
   flex-direction: column;
 }
 
-h1, h2, h3, p, span{
+h1,
+h2,
+h3,
+p,
+span {
   color: #8f7d5e;
 }
 
-.title{
-  font-family: 'Lobster', cursive;
+.title {
+  font-family: "Lobster", cursive;
   text-align: center;
   font-weight: 700;
   font-size: 2.5em;
   letter-spacing: 1em;
-  margin-left: 1em ;
+  margin-left: 1em;
 }
 
-.subtitle{
-  font-family: 'Dancing Script', cursive;
+.subtitle {
+  font-family: "Dancing Script", cursive;
   margin-top: 1.5em;
   text-align: center;
   letter-spacing: 0.3em;
@@ -64,16 +73,16 @@ h1, h2, h3, p, span{
   font-weight: 700;
 }
 
-.text{
+.text {
   text-align: center;
   margin-top: 1em;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-weight: 400;
   letter-spacing: 0.2em;
   margin-left: 0.2em;
 }
 
-.price{
+.price {
   margin-top: 0.5em;
   font-weight: 700;
 }
@@ -121,7 +130,7 @@ ul {
   padding: 0.2em;
 }
 .nav__link--item:hover .nav__link {
- scale: 1.15;
+  scale: 1.15;
 }
 
 .nav__link {
@@ -132,10 +141,10 @@ ul {
 }
 
 .nav__name {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   opacity: 0;
   margin-top: 0.3em;
-  font-size: .4em;
+  font-size: 0.4em;
   transition: all 700ms;
   font-weight: 400;
 }
@@ -150,38 +159,38 @@ Landing
 
 */
 
-#landing{
+#landing {
   height: 100vh;
 }
 
-.landing__img--wrapper{
+.landing__img--wrapper {
   width: 24em;
 }
 
-.landing__textbox{
+.landing__textbox {
   display: flex;
   flex-direction: column;
 }
 
-.landing__subtitle{
+.landing__subtitle {
   margin-top: 2em;
 }
 
-.fa-angles-down{
+.fa-angles-down {
   margin-top: 1em;
   color: #8f7d5e;
-  opacity: .4;
+  opacity: 0.4;
   font-size: 3.5em;
   animation: slideDown 2s infinite alternate-reverse;
 }
 
 @keyframes slideDown {
-  0%{
+  0% {
     transform: translateY(0);
-  }  
-  100%{
+  }
+  100% {
     transform: translateY(1em);
-  }  
+  }
 }
 
 /* 
@@ -190,22 +199,20 @@ CEVICHE
 
 */
 
-.ceviche__img--wrapper{
+.ceviche__img--wrapper {
   width: 30em;
-  border-radius: 50%;
-  border: 0.2em solid #8f7d5e;
 }
 
-.ceviche__img{
+.ceviche__img {
   scale: 1.4;
   transform: translateY(-4em);
 }
 
-.ceviche__title{
+.ceviche__title {
   margin-top: 1em;
 }
 
-.ceviche__text{
+.ceviche__text {
   line-height: 1.3em;
 }
 
@@ -215,17 +222,15 @@ ANTIPASTO
 
 */
 
-.antipasto__img--wrapper{
+.antipasto__img--wrapper {
   width: 30em;
-  border-radius: 50%;
-  border: 0.2em solid #8f7d5e;
 }
 
-.antipasto__img{
+.antipasto__img {
   scale: 1.1;
   transform: translateY(1.3em);
 }
 
-.antipasto__title{
+.antipasto__title {
   margin-top: 1em;
 }
