@@ -38,10 +38,10 @@ img {
 }
 
 .container {
+  max-width: 90%;
   margin: 0 auto;
   padding-top: 6em;
   padding-left: 2em;
-  max-width: 80vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -321,5 +321,9 @@ MEDIA QUERIES
 
   .img__wrapper{
     width: 25em;
+  }
+
+  .footer__item{
+    font-size: .7em;
   }
 }
