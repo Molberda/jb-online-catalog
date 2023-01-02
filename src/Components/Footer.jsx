@@ -13,16 +13,16 @@ const Footer = () => {
           </a>
           <ul className="footer__list">
             <li className="footer__item">
-              <a href="footer__link">Contactanos</a>
+              <a href="#">Contactanos</a>
             </li>
             <li className="footer__item">
-              <a href="footer__link">Contactanos</a>
+              <a href="#ceviche">Ceviche</a>
             </li>
             <li className="footer__item">
-              <a href="footer__link">Contactanos</a>
+              <a href="#antipasto">Antipasto</a>
             </li>
             <li className="footer__item">
-              <a href="footer__link">Contactanos</a>
+              <a href="#postres">Postres</a>
             </li>
           </ul>
           <span className="copy">Diseñado por David Möller &copy; 2022 para Delizziozo</span>
