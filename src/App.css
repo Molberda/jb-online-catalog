@@ -271,10 +271,11 @@ POSTRES
 
   .landing__container{
     padding-top: 0;
+    margin-bottom: 6em;
   }
 
   .landing__img--wrapper{
-    margin-bottom: 4em;
+    margin-bottom: 2em;
   }
 
   .title{
