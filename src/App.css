@@ -254,10 +254,14 @@ POSTRES
 
 @media (max-width: 430px){
   html{
-    font-size: 12px;
+    font-size: 14px;
   }
   .nav{
     display: none;
+  }
+
+  .container{
+    padding-left: 0;
   }
 
   #landing{
@@ -267,5 +271,9 @@ POSTRES
 
   .title{
     font-size: 1.5em;
+  }
+
+  .img__wrapper{
+    width: 25em;
   }
 }
