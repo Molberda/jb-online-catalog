@@ -4,6 +4,7 @@ import Antipasto from "./Components/Antipasto";
 import Ceviche from "./Components/Ceviche";
 import Landing from "./Components/Landing";
 import Nav from "./Components/Nav";
+import Postres from "./Components/Postres";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Landing/>
           <Ceviche/>
           <Antipasto/>
+          <Postres/>
         {/* </Routes> */}
       {/* // </Router> */}
     </div>
