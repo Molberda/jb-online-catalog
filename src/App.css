@@ -78,6 +78,7 @@ span {
 }
 
 .text {
+  font-size: 1.3em;
   text-align: center;
   margin-top: 1em;
   font-family: "Dancing Script", cursive;
