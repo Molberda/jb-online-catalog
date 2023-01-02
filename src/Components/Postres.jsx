@@ -2,9 +2,11 @@ import React from 'react';
 
 const Postres = () => {
     return (
-        <div>
-            
-        </div>
+        <section id="postres">
+            <div className="container postres__container">
+                <div className="row postres__row column"></div>
+            </div>
+        </section>
     );
 }
 
