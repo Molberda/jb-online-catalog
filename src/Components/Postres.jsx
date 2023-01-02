@@ -11,6 +11,7 @@ const Postres = () => {
                     <h2 className="title postres__title">POSTRE DE MILO</h2>
                     <h2 className="subtitle postres__subtitle">Nuestra opción que calmará todos tus antojos de azucar</h2>
                     <h2 className="text postres__text">Un delicioso postre con leche condensada, crema de leche, galletas Ducales y Milo</h2>
+                    <h2 className="price postres__price text">$15.000</h2>
                 </div>
             </div>
         </section>
