@@ -132,14 +132,14 @@ ul {
   gap: 2em;
 }
 
-.nav__link--item {
+.nav__list--item {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.15em;
   padding: 0.2em;
 }
-.nav__link--item:hover .nav__link {
+.nav__list--item:hover .nav__link {
   scale: 1.15;
 }
 
@@ -159,7 +159,7 @@ ul {
   font-weight: 400;
 }
 
-.nav__link--item:hover .nav__name {
+.nav__list--item:hover .nav__name {
   opacity: 1;
 }
 
