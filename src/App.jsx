@@ -5,6 +5,7 @@ import Ceviche from "./Components/Ceviche";
 import Footer from "./Components/Footer";
 import Landing from "./Components/Landing";
 import Nav from "./Components/Nav";
+import Paella from "./Components/Paella";
 import Postres from "./Components/Postres";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Landing/>
           <Ceviche/>
           <Antipasto/>
+          <Paella/>
           <Postres/>
           <Footer/>
         {/* </Routes> */}
