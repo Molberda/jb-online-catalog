@@ -2,6 +2,7 @@
 import "./App.css";
 import Antipasto from "./Components/Antipasto";
 import Ceviche from "./Components/Ceviche";
+import Contactanos from "./Components/Contactanos";
 import Footer from "./Components/Footer";
 import Landing from "./Components/Landing";
 import Nav from "./Components/Nav";
@@ -19,6 +20,7 @@ function App() {
           <Antipasto/>
           <Paella/>
           <Postres/>
+          <Contactanos/>
           <Footer/>
         {/* </Routes> */}
       {/* // </Router> */}

@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faJarWheat, faLeaf, faCookieBite, faAnglesDown, faUtensils, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faJarWheat, faLeaf, faCookieBite, faAnglesDown, faUtensils } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 library.add( faJarWheat, faLeaf, faCookieBite, faAnglesDown, faUtensils, faEnvelope )
 
