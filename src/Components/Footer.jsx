@@ -14,18 +14,23 @@ const Footer = () => {
           <ul className="footer__list">
             <li className="footer__item">
               <a href="#">Contactanos</a>
+              <div className="link__hover--effect"></div>
             </li>
             <li className="footer__item">
               <a href="#ceviche">Ceviche</a>
+              <div className="link__hover--effect"></div>
             </li>
             <li className="footer__item">
               <a href="#antipasto">Antipasto</a>
+              <div className="link__hover--effect"></div>
             </li>
             <li className="footer__item">
               <a href="#paella">Paella</a>
+              <div className="link__hover--effect"></div>
             </li>
             <li className="footer__item">
               <a href="#postres">Postres</a>
+              <div className="link__hover--effect"></div>
             </li>
           </ul>
           <span className="copy">Diseñado por David Möller &copy; 2022 para Delizziozo</span>
