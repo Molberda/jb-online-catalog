@@ -111,7 +111,7 @@ NAV
   left: 0;
   height: 100vh;
   width: fit-content;
-  padding: 10em 0.5em;
+  padding: 8em 0.5em;
   font-size: 26px;
 }
 
@@ -120,10 +120,6 @@ NAV
   overflow: hidden;
   aspect-ratio: 1 / 1;
   width: 2.25em;
-}
-
-.nav__logo {
-  scale: 1;
 }
 
 ul {
