@@ -2,9 +2,9 @@ import React from 'react';
 
 const Contactanos = () => {
     return (
-        <div>
+        <button className="contact__btn">
             
-        </div>
+        </button>
     );
 }
 
