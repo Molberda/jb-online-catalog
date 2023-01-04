@@ -10,7 +10,9 @@ const Paella = () => {
                         <img src={paellaImg} alt="" className="paella__img" />
                     </figure>
                     <h2 className="title paella__title">PAELLA</h2>
-                    <h2 className="subtitle paella__subtitle"></h2>
+                    <h2 className="subtitle paella__subtitle">Nuestro plato fuerte insignia</h2>
+                    <h2 className="text paella__text">Una paella que te transportara directamente a España <br /> Hecha con los ingredientes que más te gustan, frescos y preparados a la perfección</h2>
+                    <h2 className="price paella__price text">$35.000 (cada plato)</h2>
                 </div>
             </div>
         </section>
