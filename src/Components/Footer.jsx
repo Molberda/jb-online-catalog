@@ -22,6 +22,9 @@ const Footer = () => {
               <a href="#antipasto">Antipasto</a>
             </li>
             <li className="footer__item">
+              <a href="#paella">Paella</a>
+            </li>
+            <li className="footer__item">
               <a href="#postres">Postres</a>
             </li>
           </ul>
