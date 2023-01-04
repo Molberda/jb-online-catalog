@@ -104,6 +104,8 @@ span {
 
 .contact__btn{
   position: fixed;
+  bottom: 8em;
+  right: 8em;
 }
 
 /* 
