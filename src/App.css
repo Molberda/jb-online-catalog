@@ -237,7 +237,9 @@ PAELLA
 
 */
 
-
+.paella__img{
+  scale: 1.1;
+}
 
 /* 
 
