@@ -24,6 +24,7 @@ figure {
 .img__wrapper {
   border-radius: 50%;
   border: 0.2em solid #8f7d5e;
+  width: 30em;
 }
 
 img {
@@ -210,10 +211,6 @@ CEVICHE
 
 */
 
-.ceviche__img--wrapper {
-  width: 30em;
-}
-
 .ceviche__img {
   scale: 1.4;
   transform: translateY(-4em);
@@ -229,14 +226,18 @@ ANTIPASTO
 
 */
 
-.antipasto__img--wrapper {
-  width: 30em;
-}
-
 .antipasto__img {
   scale: 1.1;
   transform: translateY(1.3em);
 }
+
+/* 
+
+PAELLA
+
+*/
+
+
 
 /* 
 
@@ -245,7 +246,6 @@ POSTRES
 */
 
 .postres__img--wrapper{
-  width: 30em;
   aspect-ratio: 1 / 1;
 }
 
