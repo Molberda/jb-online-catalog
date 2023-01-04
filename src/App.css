@@ -298,6 +298,13 @@ FOOTER
   letter-spacing: .1em;
 }
 
+.link__hover--effect{
+  width: 100%;
+  height: 0.2em;
+  border-radius: 0.5em;
+  background-color: #8f7d5e;
+}
+
 .copy{
   margin-top: .8em;
   font-size: .7em;
