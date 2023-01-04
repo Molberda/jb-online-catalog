@@ -103,9 +103,13 @@ span {
 }
 
 .contact__btn{
+  font-size: 2em;
+  display: flex;
+  padding: 1.5rem;
+  border-radius: 50%;
   position: fixed;
-  bottom: 8em;
-  right: 8em;
+  bottom: 8rem;
+  right: 8rem;
 }
 
 /* 
