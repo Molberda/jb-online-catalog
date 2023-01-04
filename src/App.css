@@ -103,6 +103,9 @@ span {
 }
 
 .contact__btn{
+  background-color: #efe9e6;
+  color: #8f7d5e;
+  border: 0.1em solid #8f7d5e;
   font-size: 2em;
   display: flex;
   padding: 1.5rem;
