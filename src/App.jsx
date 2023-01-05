@@ -1,13 +1,8 @@
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Antipasto from "./Components/Antipasto";
-import Ceviche from "./Components/Ceviche";
-import Contactanos from "./Components/Contactanos";
 import Footer from "./Components/Footer";
-import Landing from "./Components/Landing";
 import Nav from "./Components/Nav";
-import Paella from "./Components/Paella";
-import Postres from "./Components/Postres";
+import Home from "./Pages/Home";
 
 function App() {
   return (
@@ -15,12 +10,7 @@ function App() {
       {/* <Router> */}
         <Nav/>
         {/* <Routes> */}
-          <Landing/>
-          <Ceviche/>
-          <Antipasto/>
-          <Paella/>
-          <Postres/>
-          <Contactanos/>
+          <Home/>
           <Footer/>
         {/* </Routes> */}
       {/* // </Router> */}
