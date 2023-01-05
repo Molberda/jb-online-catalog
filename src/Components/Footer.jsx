@@ -6,14 +6,14 @@ const Footer = () => {
     <footer className="footer">
       <div className="container footer__container">
         <div className="row footer__row column">
-          <a href="#">
+          <a href="/">
             <figure className="footer__img--wrapper">
               <img src={Logo} alt="" className="footer__img" />
             </figure>
           </a>
           <ul className="footer__list">
             <li className="footer__item">
-              <a href="#">Contactanos</a>
+              <a href="/">Contactanos</a>
               <div className="link__hover--effect"></div>
             </li>
             <li className="footer__item">
