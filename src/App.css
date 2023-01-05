@@ -65,6 +65,12 @@ span {
   color: #8f7d5e;
 }
 
+.textbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
 .title {
   font-family: "Lobster", cursive;
   text-align: center;
@@ -275,6 +281,30 @@ POSTRES
 
 .postres__img{
   object-fit: cover;
+}
+
+/* 
+
+CONTACT
+
+*/
+
+#contact{
+  height: 100vh;
+}
+
+.contact__container{
+  padding-top: 0;
+  height: 100%;
+}
+
+.contact__title{
+  text-align: start;
+  margin: 0;
+}
+.contact__subtitle{
+  text-align: start;
+  line-height: 1.5em;
 }
 
 /* 
