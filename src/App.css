@@ -305,6 +305,7 @@ CONTACT
 .contact__subtitle{
   text-align: start;
   line-height: 1.5em;
+  margin-left: 0;
 }
 
 /* 
