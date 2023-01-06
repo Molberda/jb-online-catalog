@@ -11,7 +11,7 @@ const Contact = () => {
           </figure>
           <div className="textbox contact__textbox">
             <h2 className="title contact__title">¡Contactanos!</h2>
-            <h2 className="subtitle contact__subtitle">Siguenos en instagram <a href="/" className="subtitle contact__subtitle igLink">@Deliziozo</a> <br /> O escribenos directamente a Whatsapp</h2>
+            <h2 className="subtitle contact__subtitle">Siguenos en instagram <a href="/" className="subtitle contact__subtitle igLink">@Deliziozo</a> <br /> O escribenos directamente a <a href="https://wa.link/xtt3z3" className="subtitle contact__subtitle igLink">Whatsapp</a></h2>
           </div>
         </div>
       </div>
