@@ -28,6 +28,7 @@ const Contact = () => {
                 className="subtitle contact__subtitle waLink link"
               >
                 Whatsapp
+                <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
               </a>
             </h2>
           </div>
