@@ -309,9 +309,11 @@ CONTACT
 }
 
 .waLink{
-  background-color: rgb(3, 161, 3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #2bdb17, #00850d);
+}
+
+.igLink {
+  background: linear-gradient(to right, #4856f2, #d62976);
 }
 
 /* 
