@@ -308,6 +308,12 @@ CONTACT
   margin-left: 0;
 }
 
+.waLink{
+  background-color: rgb(3, 161, 3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* 
 
 FOOTER
