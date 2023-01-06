@@ -1,8 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useEffect } from "react";
 import Pedidos from "../Assets/pedidos.png";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <section id="contact">
       <div className="container contact__container">
