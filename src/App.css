@@ -416,6 +416,11 @@ MEDIA QUERIES
     width: 25em;
   }
 
+  .contact__btn{
+    right: 2rem;
+    bottom: 2rem;
+  }
+
   .footer__item {
     font-size: 0.7em;
   }
