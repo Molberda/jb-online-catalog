@@ -25,6 +25,7 @@ const Contact = () => {
               <br /> O escribenos directamente a{" "}
               <a
                 href="https://wa.link/xtt3z3"
+                target='_blank'
                 className="subtitle contact__subtitle waLink link"
               >
                 Whatsapp
