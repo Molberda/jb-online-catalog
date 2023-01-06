@@ -6,8 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faJarWheat, faLeaf, faCookieBite, faAnglesDown, faUtensils } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
-library.add( faJarWheat, faLeaf, faCookieBite, faAnglesDown, faUtensils, faEnvelope )
+
+library.add( faJarWheat, faLeaf, faCookieBite, faAnglesDown, faUtensils, faEnvelope, fab )
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
