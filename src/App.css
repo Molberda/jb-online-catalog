@@ -427,6 +427,7 @@ MEDIA QUERIES
 
   .contact__subtitle{
     font-size: 1em;
+    letter-spacing: 0.2em;
   }
 
   .footer__item {
