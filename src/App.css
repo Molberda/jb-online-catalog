@@ -301,13 +301,21 @@ CONTACT
   height: 100%;
 }
 
+.contact__img{
+  scale: 1.2;
+}
+
+.contact__textbox{
+  width: 100%;
+}
+
 .contact__title {
   text-align: start;
   margin: 0;
 }
 .contact__subtitle {
   text-align: start;
-  line-height: 1.5em;
+  margin-top: 0.5em;
   margin-left: 0;
 }
 
