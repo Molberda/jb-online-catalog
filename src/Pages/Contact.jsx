@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="container contact__container">
-        <div className="row container__row">
+        <div className="row contact__row">
           <figure className="contact__img--wrapper">
             <img src={Pedidos} alt="" className="contact__img" />
           </figure>
