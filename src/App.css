@@ -338,10 +338,12 @@ CONTACT
 
 .fa-instagram{
   color: #d62976;
+  margin-left: 0.3em;
 }
 
 .fa-whatsapp{
   color: #00850d;
+  margin-left: 0.3em;
 }
 
 .contact__link{
@@ -447,7 +449,7 @@ MEDIA QUERIES
   }
 
   .contact__subtitle{
-    font-size: 1.5em;
+    font-size: 1.6em;
     letter-spacing: normal;
   }
 
