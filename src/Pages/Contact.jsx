@@ -6,7 +6,7 @@ const Contact = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
-  
+
   return (
     <section id="contact">
       <div className="container contact__container">
@@ -16,22 +16,24 @@ const Contact = () => {
           </figure>
           <div className="textbox contact__textbox">
             <h2 className="title contact__title">¡Contactanos!</h2>
-            <h2 className="subtitle contact__subtitle">
-              Siguenos en instagram{" "}
-              <a
-                href="/"
-                target="_blank"
-                className="subtitle contact__subtitle igLink link"
-              >
-                @Deliziozo
-                <FontAwesomeIcon icon="fa-brands fa-instagram" />
-              </a>{" "}
-              </h2>
+            <span className="contact__link">
               <h2 className="subtitle contact__subtitle">
-                O escribenos directamente a{" "}
+                Siguenos en instagram</h2>
+                <a
+                  href="/"
+                  target="_blank"
+                  className="subtitle contact__subtitle igLink link"
+                >
+                  @Deliziozo
+                  <FontAwesomeIcon icon="fa-brands fa-instagram" />
+                </a>{" "}
+              
+            </span>
+            <h2 className="subtitle contact__subtitle">
+              O escribenos directamente a{" "}
               <a
                 href="https://wa.link/xtt3z3"
-                target='_blank'
+                target="_blank"
                 className="subtitle contact__subtitle waLink link"
               >
                 Whatsapp
