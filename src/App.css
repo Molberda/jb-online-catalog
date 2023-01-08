@@ -88,6 +88,7 @@ span {
 }
 
 .subtitle {
+  font-size: 1.5em;
   font-family: "Dancing Script", cursive;
   margin-top: 1.5em;
   text-align: center;
@@ -345,6 +346,7 @@ CONTACT
 
 .contact__link{
   display: flex;
+  align-items: center;
 }
 
 /* 
