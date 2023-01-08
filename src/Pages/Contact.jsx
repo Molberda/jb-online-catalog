@@ -18,19 +18,21 @@ const Contact = () => {
             <h2 className="title contact__title">¡Contactanos!</h2>
             <span className="contact__link">
               <h2 className="subtitle contact__subtitle">
-                Siguenos en instagram</h2>
-                <a
-                  href="/"
-                  target="_blank"
-                  className="subtitle contact__subtitle igLink link"
-                >
-                  @Deliziozo
-                  <FontAwesomeIcon icon="fa-brands fa-instagram" />
-                </a>{" "}
-              
+                Siguenos en instagram
+              </h2>
+              <a
+                href="/"
+                target="_blank"
+                className="subtitle contact__subtitle igLink link"
+              >
+                @Deliziozo
+                <FontAwesomeIcon icon="fa-brands fa-instagram" />
+              </a>
             </span>
-            <h2 className="subtitle contact__subtitle">
-              O escribenos directamente a{" "}
+            <span className="contact__link">
+              <h2 className="subtitle contact__subtitle">
+                O escribenos directamente a
+              </h2>
               <a
                 href="https://wa.link/xtt3z3"
                 target="_blank"
@@ -39,7 +41,7 @@ const Contact = () => {
                 Whatsapp
                 <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
               </a>
-            </h2>
+            </span>
           </div>
         </div>
       </div>
