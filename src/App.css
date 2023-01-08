@@ -421,6 +421,10 @@ MEDIA QUERIES
     bottom: 3.5rem;
   }
 
+  .contact__row{
+    flex-direction: column;
+  }
+
   .footer__item {
     font-size: 0.7em;
   }
