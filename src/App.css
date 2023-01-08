@@ -78,6 +78,7 @@ span {
   font-size: 2.5em;
   letter-spacing: 1em;
   margin-left: 1em;
+  text-align: center;
 }
 
 .ceviche__title,
@@ -312,7 +313,6 @@ CONTACT
 }
 
 .contact__title {
-  text-align: start;
   margin: 0;
 }
 .contact__subtitle {
