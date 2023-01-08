@@ -26,7 +26,9 @@ const Contact = () => {
                 @Deliziozo
                 <FontAwesomeIcon icon="fa-brands fa-instagram" />
               </a>{" "}
-              <br /> O escribenos directamente a{" "}
+              </h2>
+              <h2 className="subtitle contact__subtitle">
+                O escribenos directamente a{" "}
               <a
                 href="https://wa.link/xtt3z3"
                 target='_blank'
