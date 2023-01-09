@@ -466,6 +466,10 @@ MEDIA QUERIES
   padding: 0;
 }
 
+.footer__row{
+  padding-bottom: 1em;
+}
+
   .footer__item {
     font-size: 0.7em;
   }
