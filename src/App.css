@@ -413,6 +413,7 @@ MEDIA QUERIES
     font-size: 14px;
   }
   .nav {
+    position: absolute;
     height: fit-content;
     width: 100%;
     left: 0;
@@ -424,6 +425,11 @@ MEDIA QUERIES
 
   .bars__btn{
     display: flex;
+    font-size: 1.4em;
+    padding: 0.3em;
+    background: none;
+    border: none;
+    color: #8f7d5e;
   }
 
   .nav ul{
