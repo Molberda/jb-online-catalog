@@ -156,6 +156,10 @@ NAV
   width: 2.25em;
 }
 
+.bars__btn{
+  display: none;
+}
+
 ul {
   display: flex;
   flex-direction: column;
@@ -415,6 +419,10 @@ MEDIA QUERIES
     padding: .5em;
     flex-direction: row;
     z-index: 10;
+  }
+
+  .bars__btn{
+    display: flex;
   }
 
   .nav ul{
