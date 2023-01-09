@@ -303,11 +303,11 @@ CONTACT
   height: 100%;
 }
 
-.contact__img{
+.contact__img {
   scale: 1.2;
 }
 
-.contact__textbox{
+.contact__textbox {
   width: 100%;
   margin-left: 1em;
 }
@@ -336,17 +336,17 @@ CONTACT
   transition: all 300ms ease;
 }
 
-.fa-instagram{
+.fa-instagram {
   color: #d62976;
   margin-left: 0.3em;
 }
 
-.fa-whatsapp{
+.fa-whatsapp {
   color: #00850d;
   margin-left: 0.3em;
 }
 
-.contact__link{
+.contact__link {
   display: flex;
   align-items: center;
 }
@@ -356,6 +356,10 @@ CONTACT
 FOOTER
 
 */
+
+.footer__row{
+  padding-bottom: 1em;
+}
 
 .footer__img--wrapper {
   width: 5em;
@@ -434,42 +438,38 @@ MEDIA QUERIES
     width: 25em;
   }
 
-  .contact__btn{
+  .contact__btn {
     right: 2rem;
     bottom: 3.5rem;
   }
 
-  #contact{
+  #contact {
     height: 80vh;
   }
 
-  .contact__row{
+  .contact__row {
     flex-direction: column;
   }
 
-  .contact__title{
+  .contact__title {
     font-size: 2.5em;
     letter-spacing: 0.3em;
   }
 
-  .contact__subtitle{
+  .contact__subtitle {
     font-size: 1.6em;
     letter-spacing: normal;
   }
 
-  .footer{
+  .footer {
     height: 20vh;
   }
 
-.footer__container{
-  height: 100%;
-  padding: 0;
-  align-items: end;
-}
-
-.footer__row{
-  padding-bottom: 1em;
-}
+  .footer__container {
+    height: 100%;
+    padding: 0;
+    align-items: end;
+  }
 
   .footer__item {
     font-size: 0.7em;
