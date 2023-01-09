@@ -409,7 +409,16 @@ MEDIA QUERIES
     font-size: 14px;
   }
   .nav {
-    display: none;
+    height: fit-content;
+    left: 0;
+    top: 0;
+    padding: .5em;
+    flex-direction: row;
+    z-index: 10;
+  }
+
+  .nav ul{
+    flex-direction: row;
   }
 
   .container {
