@@ -462,6 +462,7 @@ MEDIA QUERIES
   }
 
 .footer__container{
+  height: 100%;
   padding: 0;
 }
 
