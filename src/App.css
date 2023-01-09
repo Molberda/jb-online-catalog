@@ -441,6 +441,7 @@ MEDIA QUERIES
 
   .contact__row{
     flex-direction: column;
+    padding-bottom: 6em;
   }
 
   .contact__title{
