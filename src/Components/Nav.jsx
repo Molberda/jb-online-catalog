@@ -11,6 +11,7 @@ const Nav = () => {
           <img src={Logo} alt="" className="nav__logo" />
         </figure>
       </Link>
+      
       <ul>
         <li className="nav__list--item">
           <a href="#ceviche" className="nav__link">
