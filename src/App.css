@@ -408,6 +408,35 @@ MEDIA QUERIES
 
 */
 
+
+@media only screen and (max-width: 850px){
+  html{
+    font-size: 14px;
+  }
+
+  #contact {
+    height: 80vh;
+  }
+
+  .contact__row {
+    flex-direction: column;
+  }
+
+  .footer {
+    height: 20vh;
+  }
+
+  .footer__container {
+    height: 100%;
+    padding: 0;
+    align-items: end;
+  }
+
+  .footer__item {
+    font-size: 0.7em;
+  }
+}
+
 @media (max-width: 430px) {
   html {
     font-size: 14px;
@@ -467,13 +496,7 @@ MEDIA QUERIES
     bottom: 3.5rem;
   }
 
-  #contact {
-    height: 80vh;
-  }
 
-  .contact__row {
-    flex-direction: column;
-  }
 
   .contact__title {
     font-size: 2.5em;
@@ -485,23 +508,6 @@ MEDIA QUERIES
     letter-spacing: normal;
   }
 
-  .footer {
-    height: 20vh;
-  }
 
-  .footer__container {
-    height: 100%;
-    padding: 0;
-    align-items: end;
-  }
-
-  .footer__item {
-    font-size: 0.7em;
-  }
 }
 
-@media only screen and (max-width: 850px){
-  html{
-    font-size: 14px;
-  }
-}
