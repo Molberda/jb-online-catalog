@@ -422,6 +422,10 @@ MEDIA QUERIES
     flex-direction: column;
   }
 
+  .contact__img--wrapper{
+    width: 25em;
+  }
+
   .footer {
     height: 20vh;
   }
