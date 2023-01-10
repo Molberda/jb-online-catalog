@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Nav from '../Components/Nav';
 import Antipasto from '../Components/Antipasto';
 import Ceviche from '../Components/Ceviche';
 import Contactanos from '../Components/Contactanos';
@@ -12,6 +13,7 @@ const Home = () => {
       }, []);
     return (
         <div>
+            <Nav/>
             <Landing/>
             <Ceviche/>
             <Antipasto/>
