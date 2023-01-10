@@ -336,7 +336,7 @@ CONTACT
 }
 
 .contact__title {
-  margin: 0 0 1em;
+  margin-bottom:  1em;
 }
 .contact__subtitle {
   text-align: start;
