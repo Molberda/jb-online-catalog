@@ -1,16 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { Link } from "react-router-dom";
 import Logo from "../Assets/logo.png";
 
 const Nav = () => {
   return (
     <nav className="nav column">
-      <Link to="/">
+      <a href="#landing">
         <figure className="nav__logo--wrapper">
           <img src={Logo} alt="" className="nav__logo" />
         </figure>
-      </Link>
+      </a>
       <button className="bars__btn">
         <FontAwesomeIcon icon="fa-solid fa-bars" />
       </button>
