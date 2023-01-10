@@ -414,6 +414,10 @@ MEDIA QUERIES
     font-size: 14px;
   }
 
+  .nav{
+    padding: 5em 0.5em;
+  }
+
   #contact {
     height: 80vh;
   }
