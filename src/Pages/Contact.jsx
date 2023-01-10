@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
 import Pedidos from "../Assets/pedidos.png";
+import HomeBtn from "../Components/HomeBtn";
 
 const Contact = () => {
   useEffect(() => {
@@ -45,6 +46,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <HomeBtn/>
     </section>
   );
 };

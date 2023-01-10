@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faJarWheat, faLeaf, faCookieBite, faAnglesDown, faUtensils, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faJarWheat, faLeaf, faCookieBite, faAnglesDown, faUtensils, faBars, faHouse } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
 
-library.add( faJarWheat, faLeaf, faCookieBite, faAnglesDown, faUtensils, faBars, faEnvelope, fab )
+library.add( faJarWheat, faLeaf, faCookieBite, faAnglesDown, faUtensils, faBars, faHouse, faEnvelope, fab )
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
