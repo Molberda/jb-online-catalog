@@ -113,6 +113,25 @@ span {
   font-weight: 700;
 }
 
+.buy__btn{
+  font-size: 1.2em;
+  margin-top: 1em;
+  padding: .5em 1em;
+  color: #efe9e6;
+  background-color: #8f7d5e;
+  border: none;
+  border-radius: 1em;
+  font-family: "Lobster", cursive;
+  transition: all 300ms ease;
+  opacity: 0.8;
+}
+
+.buy__btn:hover{
+  font-size: 1.3em;
+  border: 0.1em solid #764c03;
+  opacity: 1;
+}
+
 .contact__btn {
   background-color: #efe9e6;
   color: #8f7d5e;
