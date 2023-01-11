@@ -44,7 +44,7 @@ const Contact = () => {
               </a>
             </span>
             <span className="contact__link">
-              <h2 className="subtitle contact__subtitle">Envianos un</h2><a href="jbdelizioso@gmail.com" className="subtitle contact__subtitle mail link">Correo <FontAwesomeIcon icon="fa-regular fa-envelope" /></a>
+              <h2 className="subtitle contact__subtitle">Envianos un</h2><a href="mailto:jbdelizioso@gmail.com" className="subtitle contact__subtitle mail link">Correo <FontAwesomeIcon icon="fa-regular fa-envelope" /></a>
             </span>
           </div>
         </div>

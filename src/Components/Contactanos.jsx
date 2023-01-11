@@ -6,7 +6,7 @@ const Contactanos = () => {
   return (
     <Link to="/contact">
       <button className="contact__btn">
-        <FontAwesomeIcon icon="fa-regular fa-envelope" />
+      <FontAwesomeIcon icon="fa-solid fa-envelope" />
       </button>
     </Link>
   );
