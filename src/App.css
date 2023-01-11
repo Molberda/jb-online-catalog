@@ -352,6 +352,10 @@ CONTACT
   background: linear-gradient(to right, #4856f2, #d62976);
 }
 
+.mail{
+  background: linear-gradient(to right, #4889f2, #154ad1);
+}
+
 .link {
   margin-left: 0.3em;
   background-clip: text;
