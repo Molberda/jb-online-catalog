@@ -32,7 +32,7 @@ const Contact = () => {
             </span>
             <span className="contact__link">
               <h2 className="subtitle contact__subtitle">
-                O escribenos directamente a
+                Escribenos directamente a
               </h2>
               <a
                 href="https://wa.link/xtt3z3"
@@ -42,6 +42,9 @@ const Contact = () => {
                 Whatsapp
                 <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
               </a>
+            </span>
+            <span className="contact__link">
+              <h2 className="subtitle contact__subtitle">Envianos un <a href="jbdelizioso@gmail.com" className="subtitle contact__subtitle mail link">Correo</a></h2>
             </span>
           </div>
         </div>
