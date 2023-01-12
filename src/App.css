@@ -490,10 +490,7 @@ MEDIA QUERIES
   }
 }
 
-@media only screen and (max-width: 430px) {
-  html {
-    font-size: 14px;
-  }
+@media only screen and (max-width: 670px){
   .nav {
     position: absolute;
     height: fit-content;
@@ -517,12 +514,13 @@ MEDIA QUERIES
   .nav ul {
     display: none;
   }
-
   .container {
     padding-left: 0;
     padding-top: 4em;
   }
 
+} 
+@media only screen and (max-width: 500px) {
   #landing {
     display: flex;
     align-items: center;
