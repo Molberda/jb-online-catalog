@@ -172,7 +172,7 @@ NAV
   left: 0;
   height: 100vh;
   width: fit-content;
-  padding: 3em 0.5em 8em;
+  padding: 6em 0.5em;
   font-size: 26px;
 }
 
@@ -558,5 +558,12 @@ MEDIA QUERIES
   .contact__subtitle {
     font-size: 1.6em;
     letter-spacing: normal;
+  }
+}
+
+
+@media only screen and (max-height: 800px){
+  .nav{
+    padding: 3.5em 0.5em;
   }
 }
