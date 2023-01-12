@@ -22,7 +22,7 @@ const Contact = () => {
                 Siguenos en instagram
               </h2>
               <a
-                href="/"
+                href="https://www.instagram.com/jbdelizioso/"
                 target="_blank"
                 className="subtitle contact__subtitle igLink link"
               >
