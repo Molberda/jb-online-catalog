@@ -90,7 +90,7 @@ span {
 
 .subtitle {
   font-size: 1.5em;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Dancing Script', cursive;
   margin-top: 1.5em;
   text-align: center;
   letter-spacing: 0.3em;
@@ -102,9 +102,9 @@ span {
   font-size: 1.3em;
   text-align: center;
   margin-top: 1em;
-  font-family: "Dancing Script", cursive;
-  font-weight: 400;
-  letter-spacing: 0.2em;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.1em;
   margin-left: 0.2em;
 }
 
