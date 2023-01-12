@@ -50,6 +50,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 4em;
 }
 
 .column {
@@ -252,7 +253,7 @@ Landing
 }
 
 .fa-angles-down {
-  margin-top: 1em;
+  margin-top: .5em;
   color: #8f7d5e;
   opacity: 0.4;
   font-size: 3.5em;
@@ -261,10 +262,10 @@ Landing
 
 @keyframes slideDown {
   0% {
-    transform: translateY(0);
+    transform: translateY(-0.3em);
   }
   100% {
-    transform: translateY(1em);
+    transform: translateY(0.5em);
   }
 }
 
@@ -391,6 +392,10 @@ CONTACT
 FOOTER
 
 */
+
+.footer__container{
+  margin-bottom: 0;
+}
 
 .footer__row {
   padding-bottom: 1em;
