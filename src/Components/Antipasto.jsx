@@ -18,8 +18,8 @@ const Antipasto = () => {
             Un acompañante exquisito y unico
           </h2>
           <h2 className="text antipasto__text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam id
-            iure cum unde amet voluptates.
+            Antipasto de atún, con zanahorias, habichuelas, coliflor, apio y mucho mas que te dejaran deseando otro bocado. <br />
+            ¡Sirvelo con tostadas o galletas!
           </h2>
           <h2 className="price antipasto__price text">$20.000</h2>
           <Link to="/contact">
