@@ -43,9 +43,9 @@ img {
 }
 
 .container {
+  height: 100%;
   max-width: 90%;
   margin: 0 auto;
-  padding-top: 6em;
   padding-left: 2em;
   display: flex;
   align-items: center;
@@ -440,9 +440,6 @@ MEDIA QUERIES
 */
 
 @media only screen and (max-width: 1030px) {
-  .container {
-    padding-top: 4em;
-  }
   .contact__btn {
     right: 2rem;
     bottom: 3.5rem;
@@ -515,6 +512,7 @@ MEDIA QUERIES
 
   .container {
     padding-left: 0;
+    padding-top: 4em;
   }
 
   #landing {
