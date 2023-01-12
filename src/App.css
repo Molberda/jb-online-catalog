@@ -130,6 +130,7 @@ span {
   font-size: 1.3em;
   border: 0.1em solid #764c03;
   opacity: 1;
+  cursor: pointer;
 }
 
 .contact__btn {
