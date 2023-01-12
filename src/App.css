@@ -330,6 +330,9 @@ CONTACT
   height: 100%;
 }
 
+.contact__img--wrapper{
+  width: 26em;
+}
 .contact__img {
   scale: 1.2;
 }
@@ -340,7 +343,7 @@ CONTACT
 }
 
 .contact__title {
-  margin-bottom: 1em;
+  margin-bottom: .4em;
 }
 .contact__subtitle {
   text-align: start;
