@@ -241,11 +241,11 @@ Landing
 }
 
 .landing__title {
-  font-style: 2.5em;
+  margin-top: 0.6em;
 }
 
 .landing__subtitle {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .fa-angles-down {
