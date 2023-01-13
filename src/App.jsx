@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Footer from "./Components/Footer";
 import Contact from "./Pages/Contact";
@@ -7,16 +7,16 @@ import Burger from "./Pages/Ui/Burger";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Burger/>
+    <Router>
+      <Burger />
+      <div className="App">
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
