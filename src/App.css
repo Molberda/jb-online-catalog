@@ -465,13 +465,13 @@ MEDIA QUERIES
   .img__wrapper, .landing__img--wrapper{
     width: 24em;
   }
+}
+
+@media only screen and (max-width: 850px) {
   .contact__btn {
     right: 2rem;
     bottom: 3.5rem;
   }
-}
-
-@media only screen and (max-width: 850px) {
 
   .nav {
     padding: 5em 0.5em;
