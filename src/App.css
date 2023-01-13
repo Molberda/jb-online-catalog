@@ -103,7 +103,7 @@ span {
   font-size: 1.8em;
   text-align: center;
   margin-top: 1em;
-  font-family: 'Lobster Two', cursive;
+  font-family: "Lobster Two", cursive;
   font-weight: 400;
   letter-spacing: 0.1em;
   margin-left: 0.1em;
@@ -234,7 +234,7 @@ Landing
   height: 100vh;
 }
 
-.landing__container{
+.landing__container {
   margin-bottom: 0;
 }
 
@@ -257,7 +257,7 @@ Landing
 }
 
 .fa-angles-down {
-  margin-top: .5em;
+  margin-top: 0.5em;
   color: #8f7d5e;
   opacity: 0.4;
   font-size: 3.5em;
@@ -279,7 +279,7 @@ CEVICHE
 
 */
 
-.ceviche__container{
+.ceviche__container {
   margin-top: 4em;
 }
 
@@ -338,7 +338,7 @@ CONTACT
   height: 100%;
 }
 
-.contact__img--wrapper{
+.contact__img--wrapper {
   width: 26em;
 }
 .contact__img {
@@ -350,7 +350,7 @@ CONTACT
 }
 
 .contact__title {
-  margin-bottom: .4em;
+  margin-bottom: 0.4em;
 }
 .contact__subtitle {
   text-align: start;
@@ -403,7 +403,7 @@ FOOTER
 
 */
 
-.footer__container{
+.footer__container {
   margin-bottom: 0;
 }
 
@@ -450,16 +450,27 @@ FOOTER
 
 /* 
 
+BARS MENU
+
+*/
+
+.open__menu .App{
+  display: none;
+}
+
+
+/* 
+
 MEDIA QUERIES
 
 */
 
 @media only screen and (max-width: 1200px) {
-
   html {
     font-size: 12px;
   }
-  .img__wrapper, .landing__img--wrapper{
+  .img__wrapper,
+  .landing__img--wrapper {
     width: 24em;
   }
 }
@@ -501,7 +512,7 @@ MEDIA QUERIES
   }
 }
 
-@media only screen and (max-width: 670px){
+@media only screen and (max-width: 670px) {
   .nav {
     position: absolute;
     height: fit-content;
@@ -529,8 +540,7 @@ MEDIA QUERIES
     padding-left: 0;
     padding-top: 4em;
   }
-
-} 
+}
 @media only screen and (max-width: 500px) {
   #landing {
     display: flex;
@@ -573,15 +583,14 @@ MEDIA QUERIES
   }
 }
 
-
-@media only screen and (max-height: 800px) and (min-width:670px){
-  .nav{
+@media only screen and (max-height: 800px) and (min-width: 670px) {
+  .nav {
     padding: 3.5em 0.5em;
   }
 }
 
-@media only screen and (min-height: 1000px) and (min-width:670px){
-  .nav{
+@media only screen and (min-height: 1000px) and (min-width: 670px) {
+  .nav {
     padding: 8em 0.5em;
   }
 }

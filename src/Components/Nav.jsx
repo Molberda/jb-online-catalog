@@ -1,8 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../Assets/logo.png";
 
 const Nav = () => {
+  function openMenu() {
+    document.body.classList += " open__menu";
+    console.log("open");
+  }
   return (
     <nav className="nav column">
       <a href="#landing">
@@ -10,7 +15,7 @@ const Nav = () => {
           <img src={Logo} alt="" className="nav__logo" />
         </figure>
       </a>
-      <button className="bars__btn">
+      <button className="bars__btn" onClick={openMenu}>
         <FontAwesomeIcon icon="fa-solid fa-bars" />
       </button>
       <ul>
