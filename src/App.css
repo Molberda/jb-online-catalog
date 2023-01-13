@@ -234,6 +234,10 @@ Landing
   height: 100vh;
 }
 
+.landing__container{
+  margin-bottom: 0;
+}
+
 .landing__img--wrapper {
   width: 24em;
 }
@@ -274,6 +278,10 @@ Landing
 CEVICHE
 
 */
+
+.ceviche__container{
+  margin-top: 4em;
+}
 
 .ceviche__img {
   scale: 1.4;
@@ -447,6 +455,13 @@ MEDIA QUERIES
 */
 
 @media only screen and (max-width: 1030px) {
+
+  html {
+    font-size: 14px;
+  }
+  .img__wrapper, .landing__img--wrapper{
+    width: 20em;
+  }
   .contact__btn {
     right: 2rem;
     bottom: 3.5rem;
@@ -454,9 +469,6 @@ MEDIA QUERIES
 }
 
 @media only screen and (max-width: 850px) {
-  html {
-    font-size: 14px;
-  }
 
   .nav {
     padding: 5em 0.5em;
