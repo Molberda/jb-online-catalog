@@ -574,7 +574,7 @@ MEDIA QUERIES
 }
 
 
-@media only screen and (max-height: 800px){
+@media only screen and (max-height: 800px) and (min-width:670px){
   .nav{
     padding: 3.5em 0.5em;
   }
