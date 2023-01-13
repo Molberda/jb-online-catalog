@@ -579,3 +579,9 @@ MEDIA QUERIES
     padding: 3.5em 0.5em;
   }
 }
+
+@media only screen and (min-height: 1000px) and (min-width:670px){
+  .nav{
+    padding: 8em 0.5em;
+  }
+}
