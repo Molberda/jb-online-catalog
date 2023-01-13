@@ -459,6 +459,9 @@ MEDIA QUERIES
   html {
     font-size: 12px;
   }
+  .text{
+    font-size: 1.3em;
+  }
   .img__wrapper, .landing__img--wrapper{
     width: 24em;
   }
