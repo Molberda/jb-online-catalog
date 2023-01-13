@@ -100,11 +100,11 @@ span {
 }
 
 .text {
-  font-size: 1.6em;
+  font-size: 1.4em;
   text-align: center;
   margin-top: 1em;
-  font-family: "Cormorant Garamond", sans-serif;
-  font-weight: 600;
+  font-family: 'Lobster Two', cursive;
+  font-weight: 400;
   letter-spacing: 0.1em;
   margin-left: 0.1em;
   line-height: 1.3em;
@@ -460,7 +460,7 @@ MEDIA QUERIES
     font-size: 12px;
   }
   .text{
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   .img__wrapper, .landing__img--wrapper{
     width: 24em;
