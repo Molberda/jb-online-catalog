@@ -455,16 +455,22 @@ BARS MENU
 
 */
 
-.bars{
+#bars{
   display: none;
-  height: 50vh;
+  height: 80vh;
+  width: 100vw;
+}
+
+.bars__container{
+  margin: 0;
+  padding: 0;
 }
 
 .open__menu .App{
   display: none;
 }
 
-.open__menu .bars{
+.open__menu #bars{
   display: flex;
 }
 
