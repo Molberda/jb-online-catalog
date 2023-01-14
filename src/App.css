@@ -455,8 +455,16 @@ BARS MENU
 
 */
 
+.bars{
+  display: none;
+}
+
 .open__menu .App{
   display: none;
+}
+
+.open__menu .bars{
+  display: flex;
 }
 
 
