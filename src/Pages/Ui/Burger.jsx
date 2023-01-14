@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -10,6 +11,9 @@ const Burger = () => {
     <section id="bars">
       <div className="container bars__container">
         <div className="row bars__row column">
+            <button className="close__btn" onClick={closeMenu}>
+            Cerrar Menú <FontAwesomeIcon icon="fa-solid fa-circle-xmark" />
+            </button>
           <ul className="bars__list">
             <li className="bars__item">
               <Link to="/" onClick={closeMenu}>

@@ -459,6 +459,7 @@ BARS MENU
   display: none;
   height: 100vh;
   width: 100vw;
+  position: relative;
 }
 
 .bars__container{
@@ -469,6 +470,17 @@ BARS MENU
 
 .bars__row{
   width: 100%;
+}
+
+.close__btn{
+  position: absolute;
+  top: 2em;
+  right: 1em;
+  font-size: 2em;
+  background: none;
+  border: none;
+  color: #8f7d5e;
+  font-weight: 700;
 }
 
 .bars__item{
