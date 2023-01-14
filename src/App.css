@@ -457,6 +457,7 @@ BARS MENU
 
 .bars{
   display: none;
+  height: 50vh;
 }
 
 .open__menu .App{
