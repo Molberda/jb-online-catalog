@@ -457,13 +457,18 @@ BARS MENU
 
 #bars{
   display: none;
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
 }
 
 .bars__container{
+  width: 80%;
   margin: 0;
-  padding: 0;
+  padding: 0 !important;
+}
+
+.bars__row{
+  width: 100%;
 }
 
 .open__menu .App{
@@ -472,6 +477,8 @@ BARS MENU
 
 .open__menu #bars{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
