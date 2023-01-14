@@ -471,6 +471,11 @@ BARS MENU
   width: 100%;
 }
 
+.bars__item{
+  font-size: 2em;
+  text-align: center;
+}
+
 .open__menu .App{
   display: none;
 }
