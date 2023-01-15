@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
 import Pedidos from "../Assets/pedidos.png";
 import HomeBtn from "../Components/HomeBtn";
+import Nav from "../Components/Nav";
 
 const Contact = () => {
   useEffect(() => {
@@ -10,6 +11,7 @@ const Contact = () => {
 
   return (
     <div>
+      <Nav/>
       <section id="contact">
         <div className="container contact__container">
           <div className="row contact__row column">
