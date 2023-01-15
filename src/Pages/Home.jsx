@@ -6,7 +6,6 @@ import Contactanos from "../Components/Contactanos";
 import Landing from "../Components/Landing";
 import Paella from "../Components/Paella";
 import Postres from "../Components/Postres";
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home = () => {
@@ -15,7 +14,7 @@ const Home = () => {
   }, []);
   return (
     <div>
-      <Nav name1='Ceviche' icon1={ <FontAwesomeIcon icon="fa-solid fa-leaf" />} />
+      <Nav name1='Ceviche' icon1={ <FontAwesomeIcon icon="fa-solid fa-leaf" />} name2='Antipasto' />
       <Landing />
       <Ceviche />
       <Antipasto />
