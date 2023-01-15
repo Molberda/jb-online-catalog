@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Assets/logo.png";
 
-const Nav = ({name1, link1}) => {
+const Nav = ({name1, icon1}) => {
   function openMenu() {
     document.body.classList += " open__menu";
     console.log("open");
@@ -21,8 +21,8 @@ const Nav = ({name1, link1}) => {
       <ul>
         <li className="nav__list--item">
           <a href="#ceviche" className="nav__link">
-            <FontAwesomeIcon icon="fa-solid fa-jar-wheat" />
-            <span className="nav__name">Ceviche</span>
+            {icon1}
+            <span className="nav__name">{name1}</span>
           </a>
         </li>
         <li className="nav__list--item">
