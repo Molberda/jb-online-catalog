@@ -14,7 +14,7 @@ const Home = () => {
   }, []);
   return (
     <div>
-      <Nav name1='Ceviche' icon1={ <FontAwesomeIcon icon="fa-solid fa-leaf" />} name2='Antipasto' icon2={ <FontAwesomeIcon icon="fa-solid fa-leaf" />} />
+      <Nav name1='Ceviche' icon1={ <FontAwesomeIcon icon="fa-solid fa-leaf" />} name2='Antipasto' icon2={ <FontAwesomeIcon icon="fa-solid fa-leaf" />} name3='Paella' icon3={<FontAwesomeIcon icon="fa-solid fa-utensils" />} />
       <Landing />
       <Ceviche />
       <Antipasto />
