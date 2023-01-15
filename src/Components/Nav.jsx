@@ -33,8 +33,8 @@ const Nav = ({ name1, icon1, name2, icon2 }) => {
         </li>
         <li className="nav__list--item">
           <a href="#paella" className="nav__link">
-            <FontAwesomeIcon icon="fa-solid fa-utensils" />
-            <span className="nav__name">Paella</span>
+            {icon3}
+            <span className="nav__name">{name3}</span>
           </a>
         </li>
         <li className="nav__list--item">
