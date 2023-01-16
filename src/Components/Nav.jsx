@@ -39,8 +39,8 @@ const Nav = ({ name1, icon1, name2, icon2, name3, icon3 }) => {
         </li>
         <li className="nav__list--item">
           <a href="#postres" className="nav__link">
-            <FontAwesomeIcon icon="fa-solid fa-cookie-bite" />
-            <span className="nav__name">Postres</span>
+            {icon4}
+            <span className="nav__name">{name4}</span>
           </a>
         </li>
       </ul>
