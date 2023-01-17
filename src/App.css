@@ -359,6 +359,10 @@ CONTACT
   margin-left: 0;
 }
 
+.pagos{
+  font-size: 1.2em;
+}
+
 .waLink {
   background: linear-gradient(to right, #2bdb17, #00850d);
 }
