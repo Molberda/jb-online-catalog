@@ -1,9 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { Link } from "react-router-dom";
-import Logo from "../Assets/logo.png";
 
-const Nav = ({ name1, icon1, name2, icon2, name3, icon3, name4, icon4 }) => {
+
+const Nav = ({ Logo, name1, icon1, name2, icon2, name3, icon3, name4, icon4 }) => {
   function openMenu() {
     document.body.classList += " open__menu";
     console.log("open");
