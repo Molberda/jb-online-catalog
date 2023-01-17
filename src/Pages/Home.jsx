@@ -7,6 +7,9 @@ import Landing from "../Components/Landing";
 import Paella from "../Components/Paella";
 import Postres from "../Components/Postres";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Logo from '../Assets/logo.png'
+
+
 
 const Home = () => {
   useEffect(() => {
@@ -14,7 +17,9 @@ const Home = () => {
   }, []);
   return (
     <div>
-      <Nav name1='Ceviche' icon1={<FontAwesomeIcon icon="fa-solid fa-jar-wheat" />} name2='Antipasto' icon2={ <FontAwesomeIcon icon="fa-solid fa-leaf" />} name3='Paella' icon3={<FontAwesomeIcon icon="fa-solid fa-utensils" />} name4='Postres' icon4={<FontAwesomeIcon icon="fa-solid fa-cookie-bite" />} />
+      <Nav navLogo={<figure className="nav__logo--wrapper">
+          <img src={Logo} alt="" className="nav__logo" />
+        </figure>} name1='Ceviche' icon1={<FontAwesomeIcon icon="fa-solid fa-jar-wheat" />} name2='Antipasto' icon2={ <FontAwesomeIcon icon="fa-solid fa-leaf" />} name3='Paella' icon3={<FontAwesomeIcon icon="fa-solid fa-utensils" />} name4='Postres' icon4={<FontAwesomeIcon icon="fa-solid fa-cookie-bite" />} />
       <Landing />
       <Ceviche />
       <Antipasto />

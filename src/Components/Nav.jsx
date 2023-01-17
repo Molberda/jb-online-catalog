@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 
-const Nav = ({ Logo, name1, icon1, name2, icon2, name3, icon3, name4, icon4 }) => {
+const Nav = ({ navLogo, name1, icon1, name2, icon2, name3, icon3, name4, icon4 }) => {
   function openMenu() {
     document.body.classList += " open__menu";
     console.log("open");
@@ -10,9 +10,10 @@ const Nav = ({ Logo, name1, icon1, name2, icon2, name3, icon3, name4, icon4 }) =
   return (
     <nav className="nav column">
       <a href="#landing">
-        <figure className="nav__logo--wrapper">
+        {navLogo}
+        {/* <figure className="nav__logo--wrapper">
           <img src={Logo} alt="" className="nav__logo" />
-        </figure>
+        </figure> */}
       </a>
       <button className="bars__btn" onClick={openMenu}>
         <FontAwesomeIcon icon="fa-solid fa-bars" />
