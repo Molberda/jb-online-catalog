@@ -180,8 +180,17 @@ NAV
 .nav__logo--wrapper {
   display: flex;
   overflow: hidden;
+  border-radius: 50%;
+  border: 0.1em solid #8f7d5e;
   aspect-ratio: 1 / 1;
-  width: 2.25em;
+  width: 2.5em;
+}
+
+.nav__logo{
+  display: flex;
+  transform: translate(.23em, .73em);
+  scale: 3.5;
+  object-fit: contain;
 }
 
 .bars__btn {
