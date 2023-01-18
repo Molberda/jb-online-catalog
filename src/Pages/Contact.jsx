@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
-import Pedidos from "../Assets/pedidos.png";
+import Profile from "../Assets/Profile.jpg";
 import HomeBtn from "../Components/HomeBtn";
 import Nav from "../Components/Nav";
 
@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="container contact__container">
           <div className="row contact__row column">
             <figure className="contact__img--wrapper">
-              <img src={Pedidos} alt="" className="contact__img" />
+              <img src={Profile} alt="" className="contact__img" />
             </figure>
             <div className="textbox contact__textbox">
               <h2 className="title contact__title">¡Contactanos!</h2>

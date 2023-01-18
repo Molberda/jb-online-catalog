@@ -181,16 +181,8 @@ NAV
   display: flex;
   overflow: hidden;
   border-radius: 50%;
-  border: 0.1em solid #8f7d5e;
   aspect-ratio: 1 / 1;
   width: 2.5em;
-}
-
-.nav__logo{
-  display: flex;
-  transform: translate(.23em, .73em);
-  scale: 3.5;
-  object-fit: contain;
 }
 
 .bars__btn {
@@ -350,9 +342,14 @@ CONTACT
 
 .contact__img--wrapper {
   width: 26em;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
 }
-.contact__img {
-  scale: 1.2;
+.contact__img{
+  display: flex;
+  scale: 2;
+  transform: translate(2em, 6em);
+  object-fit: contain;
 }
 
 .contact__textbox {
