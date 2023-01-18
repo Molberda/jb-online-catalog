@@ -598,6 +598,9 @@ MEDIA QUERIES
     padding-left: 0;
     padding-top: 4em;
   }
+  .pagos{
+    font-size: .8em;
+  }
 }
 @media only screen and (max-width: 500px) {
   #landing {
