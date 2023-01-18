@@ -349,7 +349,7 @@ CONTACT
   margin-bottom: 2em;
   background-color: #8f7d5e;
 }
-.contact__img{
+.contact__img {
   display: flex;
   scale: 2;
   transform: translate(2em, 6em);
@@ -369,7 +369,7 @@ CONTACT
   margin-left: 0;
 }
 
-.pagos{
+.pagos {
   font-size: 1.2em;
 }
 
@@ -469,24 +469,24 @@ BARS MENU
 
 */
 
-#bars{
+#bars {
   display: none;
   height: 100vh;
   width: 100vw;
   position: relative;
 }
 
-.bars__container{
+.bars__container {
   width: 80%;
   margin: 0;
   padding: 0 !important;
 }
 
-.bars__row{
+.bars__row {
   width: 100%;
 }
 
-.close__btn{
+.close__btn {
   position: absolute;
   top: 2em;
   right: 1em;
@@ -497,21 +497,20 @@ BARS MENU
   font-weight: 700;
 }
 
-.bars__item{
+.bars__item {
   font-size: 2em;
   text-align: center;
 }
 
-.open__menu .App{
+.open__menu .App {
   display: none;
 }
 
-.open__menu #bars{
+.open__menu #bars {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 
 /* 
 
@@ -551,7 +550,7 @@ MEDIA QUERIES
     width: 25em;
   }
 
-  .contact__subtitle{
+  .contact__subtitle {
     font-size: 1.5em;
   }
 
@@ -598,7 +597,12 @@ MEDIA QUERIES
     padding-left: 0;
     padding-top: 4em;
   }
-  .pagos{
+  .contact__title {
+    font-size: 2.5em;
+    letter-spacing: 0.3em;
+    margin-left: 0.3em;
+  }
+  .pagos {
     font-size: .8em;
   }
 }
@@ -632,15 +636,13 @@ MEDIA QUERIES
     width: 25em;
   }
 
-  .contact__title {
-    font-size: 2.5em;
-    letter-spacing: 0.3em;
-    margin-left: 0.3em;
-  }
-
   .contact__subtitle {
     font-size: 1.6em;
     letter-spacing: normal;
+  }
+
+  .pagos {
+    font-size: .8em;
   }
 }
 
