@@ -346,6 +346,7 @@ CONTACT
   aspect-ratio: 1 / 1;
   border: 0.4em solid #8f7d5e;
   box-shadow: 0 0 2em #483513;
+  margin-bottom: 2em;
 }
 .contact__img{
   display: flex;
