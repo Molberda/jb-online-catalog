@@ -54,6 +54,7 @@ const Contact = () => {
                 >
                   Correo <FontAwesomeIcon icon="fa-regular fa-envelope" />
                 </a>
+                <div className="link__hover--effect"></div>
               </span>
               <h2 className="subtitle pagos">Porfavor ten en cuenta que cobramos el 50% a la hora de confirmar el pedido y el otro 50% a la hora de la entrega.</h2>
             </div>
