@@ -48,7 +48,7 @@ const Contact = () => {
               </span>
               <span className="contact__link">
                 <h2 className="subtitle contact__subtitle">Envianos un</h2>
-                <span className="contact__hover">
+                <span className="contact__subtitle contact__hover ">
                   <a
                     href="mailto:jbdelizioso@gmail.com"
                     className="subtitle contact__subtitle mail link"
