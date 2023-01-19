@@ -24,27 +24,33 @@ const Contact = () => {
                 <h2 className="subtitle contact__subtitle">
                   Siguenos en instagram
                 </h2>
-                <a
-                  href="https://www.instagram.com/jbdelizioso/"
-                  target="_blank"
-                  className="subtitle contact__subtitle igLink link"
-                >
-                  @Deliziozo
-                  <FontAwesomeIcon icon="fa-brands fa-instagram" />
-                </a>
+                <span className="contact__subtitle contact__hover ">
+                  <a
+                    href="https://www.instagram.com/jbdelizioso/"
+                    target="_blank"
+                    className="subtitle contact__subtitle igLink link"
+                  >
+                    @Deliziozo
+                    <FontAwesomeIcon icon="fa-brands fa-instagram" />
+                  </a>
+                  <div className="link__hover--effect"></div>
+                </span>
               </span>
               <span className="contact__link">
                 <h2 className="subtitle contact__subtitle">
                   Escribenos directamente a
-                </h2>
-                <a
-                  href="https://wa.link/xtt3z3"
-                  target="_blank"
-                  className="subtitle contact__subtitle waLink link"
-                >
-                  Whatsapp
-                  <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
-                </a>
+                </h2>{" "}
+                <span className="contact__subtitle contact__hover ">
+                  <a
+                    href="https://wa.link/xtt3z3"
+                    target="_blank"
+                    className="subtitle contact__subtitle waLink link"
+                  >
+                    Whatsapp
+                    <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
+                  </a>
+                  <div className="link__hover--effect"></div>
+                </span>
               </span>
               <span className="contact__link">
                 <h2 className="subtitle contact__subtitle">Envianos un</h2>
