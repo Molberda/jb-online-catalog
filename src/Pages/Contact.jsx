@@ -33,7 +33,7 @@ const Contact = () => {
                     @Deliziozo
                     <FontAwesomeIcon icon="fa-brands fa-instagram" />
                   </a>
-                  <div className="link__hover--effect"></div>
+                  <div className="link__hover--effect igLink"></div>
                 </span>
               </span>
               <span className="contact__link">
@@ -49,7 +49,7 @@ const Contact = () => {
                     Whatsapp
                     <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
                   </a>
-                  <div className="link__hover--effect"></div>
+                  <div className="link__hover--effect waLink"></div>
                 </span>
               </span>
               <span className="contact__link">
@@ -61,7 +61,7 @@ const Contact = () => {
                   >
                     Correo <FontAwesomeIcon icon="fa-regular fa-envelope" />
                   </a>
-                  <div className="link__hover--effect"></div>
+                  <div className="link__hover--effect mail"></div>
                 </span>
               </span>
               <h2 className="subtitle pagos">
