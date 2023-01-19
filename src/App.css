@@ -391,7 +391,7 @@ CONTACT
 
 .contact__hover{
   position: relative;
-  margin-left: 0.3em;
+  margin-left: 0.8em;
 }
 
 .contact__hover:hover .link__hover--effect {
