@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
     <div>
-      <Nav/>
+      <Nav />
       <section id="contact">
         <div className="container contact__container">
           <div className="row contact__row column">
@@ -48,15 +48,20 @@ const Contact = () => {
               </span>
               <span className="contact__link">
                 <h2 className="subtitle contact__subtitle">Envianos un</h2>
-                <a
-                  href="mailto:jbdelizioso@gmail.com"
-                  className="subtitle contact__subtitle mail link"
-                >
-                  Correo <FontAwesomeIcon icon="fa-regular fa-envelope" />
-                </a>
-                <div className="link__hover--effect"></div>
+                <span className="contact__hover">
+                  <a
+                    href="mailto:jbdelizioso@gmail.com"
+                    className="subtitle contact__subtitle mail link"
+                  >
+                    Correo <FontAwesomeIcon icon="fa-regular fa-envelope" />
+                  </a>
+                  <div className="link__hover--effect"></div>
+                </span>
               </span>
-              <h2 className="subtitle pagos">Porfavor ten en cuenta que cobramos el 50% a la hora de confirmar el pedido y el otro 50% a la hora de la entrega.</h2>
+              <h2 className="subtitle pagos">
+                Porfavor ten en cuenta que cobramos el 50% a la hora de
+                confirmar el pedido y el otro 50% a la hora de la entrega.
+              </h2>
             </div>
           </div>
         </div>

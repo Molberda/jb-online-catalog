@@ -385,6 +385,10 @@ CONTACT
   background: linear-gradient(to right, #154ad1, #4889f2);
 }
 
+.contact__hover{
+  position: relative;
+}
+
 .link {
   margin-left: 0.3em;
   background-clip: text;
@@ -446,7 +450,7 @@ FOOTER
 .link__hover--effect {
   position: absolute;
   right: 0;
-  width: 0%;
+  width: 100%;
   height: 0.2em;
   border-radius: 0.5em;
   background-color: #8f7d5e;
