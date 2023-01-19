@@ -463,7 +463,7 @@ FOOTER
   height: 0.2em;
   border-radius: 0.5em;
   background-color: #8f7d5e;
-  transition: all 300ms ease;
+  transition: all 600ms ease;
 }
 
 .footer__item:hover .link__hover--effect {
