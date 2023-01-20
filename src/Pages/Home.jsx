@@ -8,6 +8,7 @@ import Paella from "../Components/Paella";
 import Postres from "../Components/Postres";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "../Assets/logo.png";
+import Tortlla from "../Components/Tortlla";
 
 const Home = () => {
   useEffect(() => {
@@ -34,6 +35,7 @@ const Home = () => {
       <Ceviche />
       <Antipasto />
       <Paella />
+      <Tortlla/>
       <Postres />
       <Contactanos />
     </div>
