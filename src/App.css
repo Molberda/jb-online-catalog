@@ -85,7 +85,8 @@ span {
 .ceviche__title,
 .antipasto__title,
 .postres__title,
-.paella__title {
+.paella__title,
+.tortilla__title {
   margin-top: 1em;
 }
 
@@ -309,6 +310,17 @@ PAELLA
 
 .paella__img {
   scale: 1.1;
+}
+
+/* 
+
+TORTILLA
+
+*/
+
+.tortilla__img{
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
 }
 
 /* 
