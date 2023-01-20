@@ -9,6 +9,8 @@ const Tortlla = () => {
                     <img src="" alt="" className="tortilla__img" />
                 </figure>
                 <h2 className="title tortilla__title">TORTILLA</h2>
+                <h2 className="subtitle tortilla__subtitle">Perfecto para cualquier hora del dia</h2>
+                <h2 className="text tortilla text">¡Una tortilla de patatas en su punto! <br /> Acompañala con mayonesa o sirvela sola.</h2>
             </div>
         </div>
        </section>
