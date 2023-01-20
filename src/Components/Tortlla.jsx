@@ -8,6 +8,7 @@ const Tortlla = () => {
                 <figure className="img__wrapper tortilla__img--wrapper">
                     <img src="" alt="" className="tortilla__img" />
                 </figure>
+                <h2 className="title tortilla__title">TORTILLA</h2>
             </div>
         </div>
        </section>
