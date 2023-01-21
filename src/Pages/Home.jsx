@@ -29,6 +29,7 @@ const Home = () => {
         name3="Paella"
         icon3={<FontAwesomeIcon icon="fa-solid fa-utensils" />}
         name4='Tortilla'
+        icon4={<FontAwesomeIcon icon="fa-solid fa-stroopwafel" />}
         name5="Postres"
         icon5={<FontAwesomeIcon icon="fa-solid fa-cookie-bite" />}
       />
