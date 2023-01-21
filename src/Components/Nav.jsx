@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 
-const Nav = ({ navLogo, name1, icon1, name2, icon2, name3, icon3, name4, icon4 }) => {
+const Nav = ({ navLogo, name1, icon1, name2, icon2, name3, icon3, name4, icon4, name5, icon5 }) => {
   function openMenu() {
     document.body.classList += " open__menu";
     console.log("open");
