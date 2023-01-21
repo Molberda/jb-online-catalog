@@ -11,9 +11,6 @@ const Nav = ({ navLogo, name1, icon1, name2, icon2, name3, icon3, name4, icon4, 
     <nav className="nav column">
       <a href="#landing">
         {navLogo}
-        {/* <figure className="nav__logo--wrapper">
-          <img src={Logo} alt="" className="nav__logo" />
-        </figure> */}
       </a>
       <button className="bars__btn" onClick={openMenu}>
         <FontAwesomeIcon icon="fa-solid fa-bars" />
