@@ -38,9 +38,15 @@ const Nav = ({ navLogo, name1, icon1, name2, icon2, name3, icon3, name4, icon4 }
           </a>
         </li>
         <li className="nav__list--item">
-          <a href="#postres" className="nav__link">
+          <a href="#tortilla" className="nav__link">
             {icon4}
             <span className="nav__name">{name4}</span>
+          </a>
+        </li>
+        <li className="nav__list--item">
+          <a href="#postres" className="nav__link">
+            {icon5}
+            <span className="nav__name">{name5}</span>
           </a>
         </li>
       </ul>
