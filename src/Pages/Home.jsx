@@ -28,8 +28,8 @@ const Home = () => {
         icon2={<FontAwesomeIcon icon="fa-solid fa-leaf" />}
         name3="Paella"
         icon3={<FontAwesomeIcon icon="fa-solid fa-utensils" />}
-        name4="Postres"
-        icon4={<FontAwesomeIcon icon="fa-solid fa-cookie-bite" />}
+        name5="Postres"
+        icon5={<FontAwesomeIcon icon="fa-solid fa-cookie-bite" />}
       />
       <Landing />
       <Ceviche />
