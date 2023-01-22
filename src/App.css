@@ -669,13 +669,9 @@ MEDIA QUERIES
     width: 25em;
   }
 
-  .contact__link {
+  /* .contact__link {
     font-size: 0.7em;
-  }
-
-  .pagos {
-    font-size: .8em;
-  }
+  } */
 }
 
 @media only screen and (max-height: 850px) and (min-width: 670px) {
