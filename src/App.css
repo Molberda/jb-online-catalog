@@ -576,7 +576,11 @@ MEDIA QUERIES
   }
 
   .contact__link {
-    font-size: 0.8em;
+    font-size: 1em;
+  }
+
+  .contact__subtitle{
+    letter-spacing: normal;
   }
 
   .footer {
