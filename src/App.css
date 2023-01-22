@@ -631,6 +631,10 @@ MEDIA QUERIES
     letter-spacing: 0.3em;
     margin-left: 0.3em;
   }
+
+  .contact__link{
+    font-size: 0.9em;
+  }
   .pagos {
     font-size: .8em;
   }
