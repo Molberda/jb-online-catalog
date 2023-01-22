@@ -575,8 +575,8 @@ MEDIA QUERIES
     width: 25em;
   }
 
-  .contact__subtitle {
-    font-size: 1.5em;
+  .contact__link {
+    font-size: 1em;
   }
 
   .footer {
@@ -661,8 +661,8 @@ MEDIA QUERIES
     width: 25em;
   }
 
-  .contact__subtitle {
-    font-size: 1.6em;
+  .contact__link {
+    font-size: 0.7em;
     letter-spacing: normal;
   }
 
