@@ -13,7 +13,7 @@ const Landing = () => {
           <div className="landing__textbox">
             <h1 className="title landing__title">DELIZIOSO</h1>
             <h2 className="subtitle landing__subtitle">Todos tus antojitos en un solo lugar</h2>
-            <h2 className="text landing__text">Las Entradas & Postres <br /> Que dejan a todos queriendo mas </h2>
+            <h2 className="text landing__text">Las Entradas & Postres <br /> Que dejan a todos queriendo más </h2>
           </div>
           <FontAwesomeIcon icon="fa-solid fa-angles-down" />
         </div>
