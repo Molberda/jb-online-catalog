@@ -22,7 +22,7 @@ const Contact = () => {
               <h2 className="title contact__title">¡Contáctanos!</h2>
               <span className="contact__link">
                 <h2 className="subtitle contact__subtitle">
-                  Siguenos en instagram
+                  Síguenos en instagram
                 </h2>
                 <span className="contact__subtitle contact__hover ">
                   <a
@@ -38,7 +38,7 @@ const Contact = () => {
               </span>
               <span className="contact__link">
                 <h2 className="subtitle contact__subtitle">
-                  Escribenos directamente a
+                  Escríbenos directamente a
                 </h2>{" "}
                 <span className="contact__subtitle contact__hover ">
                   <a
@@ -53,7 +53,7 @@ const Contact = () => {
                 </span>
               </span>
               <span className="contact__link">
-                <h2 className="subtitle contact__subtitle">Envianos un</h2>
+                <h2 className="subtitle contact__subtitle">Envíanos un</h2>
                 <span className="contact__subtitle contact__hover ">
                   <a
                     href="mailto:jbdelizioso@gmail.com"
@@ -67,6 +67,8 @@ const Contact = () => {
               <h2 className="subtitle pagos">
                 Porfavor ten en cuenta que cobramos el 50% a la hora de
                 confirmar el pedido y el otro 50% a la hora de la entrega.
+                <br />
+                Además requerimos minimo 3 dias de antelación para preparar tu pedido
               </h2>
             </div>
           </div>
