@@ -14,7 +14,7 @@ const Tortlla = () => {
             Perfecto para cualquier hora del dia
           </h2>
           <h2 className="text tortilla text">
-            ¡Una tortilla de patatas en su punto! <br /> Acompañala con mayonesa
+            ¡Una tortilla de patatas en su punto! <br /> Acompáñala con mayonesa
             o sirvela sola.
           </h2>
           <h2 className="price text tortilla__price">$30.000</h2>
