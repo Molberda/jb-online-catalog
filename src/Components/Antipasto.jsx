@@ -23,7 +23,7 @@ const Antipasto = () => {
           </h2>
           <h2 className="price antipasto__price text">$20.000</h2>
           <Link to="/contact">
-            <button className="buy__btn">Pidelo Ya</button>
+            <button className="buy__btn">Pídelo Ya</button>
           </Link>
         </div>
       </div>
