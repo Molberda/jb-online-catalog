@@ -15,7 +15,7 @@ const Antipasto = () => {
           </figure>
           <h2 className="title antipasto__title">ANTIPASTO</h2>
           <h2 className="subtitle antipasto__subtitle">
-            Un acompañante exquisito y unico
+            Un acompañante exquisito y único
           </h2>
           <h2 className="text antipasto__text">
             Antipasto de atún, con zanahorias, habichuelas, coliflor, apio y mucho mas que te dejaran deseando otro bocado. <br />
