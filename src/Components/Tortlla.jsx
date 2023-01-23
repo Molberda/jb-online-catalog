@@ -11,7 +11,7 @@ const Tortlla = () => {
           </figure>
           <h2 className="title tortilla__title">TORTILLA</h2>
           <h2 className="subtitle tortilla__subtitle">
-            Perfecto para cualquier hora del dia
+            Perfecto para cualquier hora del día
           </h2>
           <h2 className="text tortilla text">
             ¡Una tortilla de patatas en su punto! <br /> Acompáñala con mayonesa
