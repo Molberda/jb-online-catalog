@@ -19,7 +19,7 @@ const Contact = () => {
               <img src={Profile} alt="" className="contact__img" />
             </figure>
             <div className="textbox contact__textbox">
-              <h2 className="title contact__title">¡Contactanos!</h2>
+              <h2 className="title contact__title">¡Contáctanos!</h2>
               <span className="contact__link">
                 <h2 className="subtitle contact__subtitle">
                   Siguenos en instagram
