@@ -19,7 +19,7 @@ const Tortlla = () => {
           </h2>
           <h2 className="price text tortilla__price">$30.000</h2>
           <Link to="/contact">
-            <button className="buy__btn">Pidelo Ya</button>
+            <button className="buy__btn">Pídelo Ya</button>
           </Link>
         </div>
       </div>
