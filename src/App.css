@@ -288,8 +288,9 @@ CEVICHE
 }
 
 .ceviche__img {
-  scale: 1.4;
-  transform: translateY(-4em);
+  scale: 1.1;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 /* 
