@@ -640,7 +640,7 @@ MEDIA QUERIES
     font-size: 0.9em ;
   }
   .pagos {
-    font-size: .8em !important;
+    font-size: 1em !important;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -662,11 +662,11 @@ MEDIA QUERIES
   }
 
   .subtitle {
-    font-size: 1.5em;
+    font-size: 1.7em;
   }
 
   .text {
-    font-size: 1.1em;
+    font-size: 1.5em;
   }
 
   .img__wrapper {
