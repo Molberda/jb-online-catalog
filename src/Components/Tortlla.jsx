@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Tortilla from '../Assets/tortilla.jpg'
 
 const Tortlla = () => {
   return (
