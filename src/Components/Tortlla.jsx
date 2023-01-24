@@ -8,7 +8,7 @@ const Tortlla = () => {
       <div className="container tortilla__container">
         <div className="row tortilla__row column">
           <figure className="img__wrapper tortilla__img--wrapper">
-            <img src="https://www.cocinavital.mx/wp-content/uploads/2019/04/tortilla-espanola-clasica-fb.jpg" alt="" className="tortilla__img" />
+            <img src={Tortilla} alt="" className="tortilla__img" />
           </figure>
           <h2 className="title tortilla__title">TORTILLA</h2>
           <h2 className="subtitle tortilla__subtitle">
