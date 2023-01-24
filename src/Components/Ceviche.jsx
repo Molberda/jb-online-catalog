@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CevicheImg from '../Assets/ceviche.jpg'
 
 const Ceviche = () => {
   return (
