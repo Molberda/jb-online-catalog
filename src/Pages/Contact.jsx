@@ -28,6 +28,7 @@ const Contact = () => {
                   <a
                     href="https://www.instagram.com/jbdelizioso/"
                     target="_blank"
+                    rel="noreferrer"
                     className="subtitle contact__subtitle igLink link"
                   >
                     @Deliziozo
@@ -44,6 +45,7 @@ const Contact = () => {
                   <a
                     href="https://wa.link/xtt3z3"
                     target="_blank"
+                    rel="noreferrer"
                     className="subtitle contact__subtitle waLink link"
                   >
                     Whatsapp
@@ -68,7 +70,8 @@ const Contact = () => {
                 Porfavor ten en cuenta que cobramos el 50% a la hora de
                 confirmar el pedido y el otro 50% a la hora de la entrega.
                 <br />
-                Además requerimos minimo 3 dias de antelación para preparar tu pedido
+                Además requerimos minimo 3 dias de antelación para preparar tu
+                pedido
               </h2>
             </div>
           </div>
