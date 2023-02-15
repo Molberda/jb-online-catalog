@@ -18,7 +18,7 @@ const Tortlla = () => {
             ¡Una tortilla de patatas en su punto! <br /> Acompáñala con mayonesa
             o sirvela sola.
           </h2>
-          <h2 className="price text tortilla__price">$30.000</h2>
+          <h2 className="price text tortilla__price">$30.000 (6 Porciones)</h2>
           <Link to="/contact">
             <button className="buy__btn">Pídelo Ya</button>
           </Link>
