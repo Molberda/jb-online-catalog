@@ -5,7 +5,6 @@ import Ceviche from "../Components/Ceviche";
 import Contactanos from "../Components/Contactanos";
 import Landing from "../Components/Landing";
 import Paella from "../Components/Paella";
-import Postres from "../Components/Postres";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "../Assets/logo.png";
 import Tortlla from "../Components/Tortlla";
@@ -38,7 +37,6 @@ const Home = () => {
       <Antipasto />
       <Paella />
       <Tortlla/>
-      <Postres />
       <Contactanos />
     </div>
   );
