@@ -5,6 +5,7 @@ import Ceviche from "../Components/Ceviche";
 import Contactanos from "../Components/Contactanos";
 import Landing from "../Components/Landing";
 import Paella from "../Components/Paella";
+import Postres from "../Components/Postres";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "../Assets/logo.png";
 import Tortlla from "../Components/Tortlla";
@@ -29,14 +30,15 @@ const Home = () => {
         icon3={<FontAwesomeIcon icon="fa-solid fa-utensils" />}
         name4='Tortilla'
         icon4={<FontAwesomeIcon icon="fa-solid fa-stroopwafel" />}
-        name5="Postres"
-        icon5={<FontAwesomeIcon icon="fa-solid fa-cookie-bite" />}
+        // name5="Postres"
+        // icon5={<FontAwesomeIcon icon="fa-solid fa-cookie-bite" />}
       />
       <Landing />
       <Ceviche />
       <Antipasto />
       <Paella />
       <Tortlla/>
+      {/* <Postres/> */}
       <Contactanos />
     </div>
   );
