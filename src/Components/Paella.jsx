@@ -19,7 +19,7 @@ const Paella = () => {
             con los ingredientes que más te gustan, frescos y preparados a la
             perfección
           </h2>
-          <h2 className="price paella__price text"> Desde $40.000 la porción <br /> (mínimo 8 porciones)</h2>
+          <h2 className="price paella__price text"> Desde $45.000 la porción <br /> (mínimo 8 porciones)</h2>
           <Link to="/contact">
             <button className="buy__btn">Pídelo Ya</button>
           </Link>
