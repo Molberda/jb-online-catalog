@@ -5,10 +5,11 @@ import Ceviche from "../Components/Ceviche";
 import Contactanos from "../Components/Contactanos";
 import Landing from "../Components/Landing";
 import Paella from "../Components/Paella";
-import Postres from "../Components/Postres";
+// import Postres from "../Components/Postres";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "../Assets/logo.png";
 import Tortlla from "../Components/Tortlla";
+import { Button } from "@mui/material";
 
 const Home = () => {
   useEffect(() => {
